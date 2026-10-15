@@ -1,0 +1,26 @@
+{
+  "id": "SUPORTE",
+  "nome_setup": "Suporte",
+  "tipo": "selecao_simples",
+  "publicar": true,
+  "titulo": "Central de Atendimento | Ghost Store",
+  "descricao": "Ao abrir um ticket, um membro da nossa equipe entrará em contato o mais rápido possível.\nTodo atendimento é realizado de forma privada e segura.\nRespondemos todos os tickets.\nCaso não receba retorno imediato, não se preocupe – sua mensagem foi recebida e será respondida em breve.",
+  "cor": 1118484,
+  "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+  "custom_id": "suporte_tipo_select",
+  "placeholder": "Clique aqui para ver as opções",
+  "opcoes": [
+    {
+      "label": "Suporte",
+      "value": "suporte",
+      "description": "Preciso de ajuda",
+      "emoji": "<:duvida:1499220609350107167>"
+    },
+    {
+      "label": "Receber Produto",
+      "value": "produto",
+      "description": "Quero receber meu produto",
+      "emoji": "@cardbox"
+    }
+  ]
+}

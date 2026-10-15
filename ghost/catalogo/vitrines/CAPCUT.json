@@ -1,0 +1,25 @@
+{
+  "id": "CAPCUT",
+  "nome_setup": "CapCut",
+  "tipo": "painel",
+  "publicar": true,
+  "blocos": [
+    {
+      "tipo": "texto",
+      "texto": "## <:capcut:1499882135459201175>  CapCut Pro\n### {preco}\n\n- Entrega automática de link de presente.\n- Plano mensal compartilhado.\n- Garantia somente na entrega — confirmado o acesso, a garantia encerra."
+    },
+    {
+      "tipo": "linha"
+    },
+    {
+      "tipo": "estoque"
+    },
+    {
+      "tipo": "imagem",
+      "url": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073406438051860/50_Sem_Titulo_20260502065601.png?ex=69f7c47a&is=69f672fa&hm=677eec03bd66843417aaff946e63e544fa0ad9b481c1acd6199b1d38f2d0f0c5&"
+    },
+    {
+      "tipo": "linha"
+    }
+  ]
+}

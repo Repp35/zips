@@ -1,0 +1,26 @@
+{
+  "id": "PEDIDO_RESTOCK",
+  "nome_setup": "Pedido Restock",
+  "tipo": "painel",
+  "publicar": true,
+  "blocos": [
+    {
+      "tipo": "texto",
+      "texto": "## {E.cardbox}  Solicitar Restock\n\nSentiu falta de algum produto? Selecione abaixo e a equipe será notificada imediatamente.\nQuando o estoque for reabastecido, você poderá optar por receber um aviso."
+    },
+    {
+      "tipo": "linha"
+    },
+    {
+      "tipo": "texto",
+      "texto": "-# Apenas produtos atualmente **sem estoque** aparecem no menu.\n-# Seu pedido é privado — a equipe cuidará do resto."
+    }
+  ],
+  "acoes": [
+    {
+      "label": "Solicitar Restock",
+      "style": 2,
+      "custom_id": "pedido_restock_btn"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "id": "hbo_nfa",
+  "nome": "HBO Max NFA",
+  "preco": 1.8,
+  "ordem": 5,
+  "ativo": true,
+  "anunciar": true,
+  "canal": null,
+  "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+  "garantia": "somente na entrega (confirmado o acesso, encerra).",
+  "select": {
+    "rotulo": "HBO Max NFA",
+    "descricao": "{preco} | {estado}",
+    "emoji": "<:hbo_max:1499177592249385090>"
+  },
+  "modelo": {
+    "estoque": "conta",
+    "entrega": "automatica",
+    "sem_estoque": "avisar",
+    "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+    "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+  },
+  "mensagem": {
+    "automatico": [
+      {
+        "tipo": "texto",
+        "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+      },
+      {
+        "tipo": "linha"
+      },
+      {
+        "tipo": "imagem"
+      },
+      {
+        "tipo": "linha"
+      },
+      {
+        "tipo": "botoes",
+        "itens": [
+          {
+            "acao": "pagar",
+            "label": "Pagar agora",
+            "style": 3,
+            "emoji": "@correct"
+          },
+          {
+            "acao": "lote",
+            "label": "Lote ({quantidade}x)",
+            "style": 2,
+            "emoji": "@cardbox"
+          },
+          {
+            "acao": "cupom",
+            "label": "Cupom",
+            "label_com_cupom": "Cupom: {cupom_codigo}",
+            "style": 2,
+            "emoji": "@ticket"
+          },
+          {
+            "acao": "cancelar",
+            "label": "Cancelar",
+            "style": 4,
+            "emoji": "@delete"
+          }
+        ]
+      }
+    ],
+    "manual": [
+      {
+        "tipo": "texto",
+        "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+      },
+      {
+        "tipo": "linha"
+      },
+      {
+        "tipo": "imagem"
+      },
+      {
+        "tipo": "linha"
+      },
+      {
+        "tipo": "botoes",
+        "itens": [
+          {
+            "acao": "pagar",
+            "label": "Pagar agora",
+            "style": 3,
+            "emoji": "@correct"
+          },
+          {
+            "acao": "cancelar",
+            "label": "Cancelar",
+            "style": 4,
+            "emoji": "@delete"
+          }
+        ]
+      }
+    ]
+  },
+  "vitrine": {
+    "id": "NFA",
+    "tipo": "selecao",
+    "nome_setup": "NFA",
+    "publicar": true,
+    "titulo": "Streamings NFA",
+    "descricao": "{E.truck} Entrega Automática!\n\n- NFA significa **Not Full Access** — conta compartilhada, preço acessível.\n- **30 dias** de duração. Garantia **somente na entrega**.\n- Sem trocas ou reembolsos após confirmação do acesso.",
+    "cor": 16777215,
+    "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+    "custom_id": "select_produto_nfa",
+    "placeholder": "Selecione um produto..."
+  }
+}

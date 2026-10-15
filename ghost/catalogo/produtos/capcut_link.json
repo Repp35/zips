@@ -1,0 +1,133 @@
+{
+  "id": "capcut_link",
+  "nome": "CapCut Pro",
+  "preco": 4.7,
+  "ordem": 1,
+  "ativo": true,
+  "anunciar": true,
+  "canal": null,
+  "imagem": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073406438051860/50_Sem_Titulo_20260502065601.png?ex=69f7c47a&is=69f672fa&hm=677eec03bd66843417aaff946e63e544fa0ad9b481c1acd6199b1d38f2d0f0c5&",
+  "garantia": null,
+  "select": {
+    "rotulo": "CapCut Pro",
+    "descricao": "{preco} | {estado}",
+    "emoji": null
+  },
+  "botao": {
+    "label": "Comprar",
+    "style": 2,
+    "emoji": "@cart"
+  },
+  "sem_estoque": "manual",
+  "modelo": {
+    "estoque": "link",
+    "entrega": "automatica",
+    "sem_estoque": "avisar",
+    "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+    "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+  },
+  "mensagem": {
+    "automatico": [
+      {
+        "tipo": "texto",
+        "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+      },
+      {
+        "tipo": "linha"
+      },
+      {
+        "tipo": "imagem"
+      },
+      {
+        "tipo": "linha"
+      },
+      {
+        "tipo": "botoes",
+        "itens": [
+          {
+            "acao": "pagar",
+            "label": "Pagar agora",
+            "style": 3,
+            "emoji": "@correct"
+          },
+          {
+            "acao": "lote",
+            "label": "Lote ({quantidade}x)",
+            "style": 2,
+            "emoji": "@cardbox"
+          },
+          {
+            "acao": "cupom",
+            "label": "Cupom",
+            "label_com_cupom": "Cupom: {cupom_codigo}",
+            "style": 2,
+            "emoji": "@ticket"
+          },
+          {
+            "acao": "cancelar",
+            "label": "Cancelar",
+            "style": 4,
+            "emoji": "@delete"
+          }
+        ]
+      }
+    ],
+    "manual": [
+      {
+        "tipo": "texto",
+        "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+      },
+      {
+        "tipo": "linha"
+      },
+      {
+        "tipo": "imagem"
+      },
+      {
+        "tipo": "linha"
+      },
+      {
+        "tipo": "botoes",
+        "itens": [
+          {
+            "acao": "pagar",
+            "label": "Pagar agora",
+            "style": 3,
+            "emoji": "@correct"
+          },
+          {
+            "acao": "cancelar",
+            "label": "Cancelar",
+            "style": 4,
+            "emoji": "@delete"
+          }
+        ]
+      }
+    ]
+  },
+  "vitrine": {
+    "id": "CAPCUT",
+    "tipo": "painel",
+    "nome_setup": "CapCut",
+    "publicar": true,
+    "blocos": [
+      {
+        "tipo": "texto",
+        "texto": "## <:capcut:1499882135459201175>  CapCut Pro\n### {preco}\n\n- Entrega automática de link de presente.\n- Plano mensal compartilhado.\n- Garantia somente na entrega — confirmado o acesso, a garantia encerra."
+      },
+      {
+        "tipo": "linha"
+      },
+      {
+        "tipo": "estoque"
+      },
+      {
+        "tipo": "imagem",
+        "url": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073406438051860/50_Sem_Titulo_20260502065601.png?ex=69f7c47a&is=69f672fa&hm=677eec03bd66843417aaff946e63e544fa0ad9b481c1acd6199b1d38f2d0f0c5&"
+      },
+      {
+        "tipo": "linha"
+      }
+    ]
+  }
+}

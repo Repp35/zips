@@ -1,0 +1,16 @@
+__pycache__/
+.env
+google-drive-credentials.json
+data/google-drive-token.json
+data/google-drive-state.json
+data/google-drive-*.json
+data/*.db
+data/*.db-*
+# Compatibilidade: bancos de instalações antigas não devem voltar ao controle de versão.
+banco.db
+banco.db-*
+# diário de segurança (contém dados de conta; não versionar)
+diario.jsonl
+diario.jsonl.*
+data/diario.jsonl
+data/diario.jsonl.*

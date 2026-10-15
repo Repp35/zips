@@ -1,0 +1,2460 @@
+{
+  "criado_em": "2026-10-13T13:37:05-03:00",
+  "estado": {
+    "produtos": {
+      "capcut_link": {
+        "id": "capcut_link",
+        "nome": "CapCut Pro",
+        "preco": 4.7,
+        "ordem": 1,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073406438051860/50_Sem_Titulo_20260502065601.png?ex=69f7c47a&is=69f672fa&hm=677eec03bd66843417aaff946e63e544fa0ad9b481c1acd6199b1d38f2d0f0c5&",
+        "garantia": null,
+        "select": {
+          "rotulo": "CapCut Pro",
+          "descricao": "{preco} | {estado}",
+          "emoji": null
+        },
+        "botao": {
+          "label": "Comprar",
+          "style": 2,
+          "emoji": "@cart"
+        },
+        "sem_estoque": "manual",
+        "modelo": {
+          "estoque": "link",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "CAPCUT",
+          "tipo": "painel",
+          "nome_setup": "CapCut",
+          "publicar": true,
+          "blocos": [
+            {
+              "tipo": "texto",
+              "texto": "## <:capcut:1499882135459201175>  CapCut Pro\n### {preco}\n\n- Entrega automática de link de presente.\n- Plano mensal compartilhado.\n- Garantia somente na entrega — confirmado o acesso, a garantia encerra."
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "estoque"
+            },
+            {
+              "tipo": "imagem",
+              "url": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073406438051860/50_Sem_Titulo_20260502065601.png?ex=69f7c47a&is=69f672fa&hm=677eec03bd66843417aaff946e63e544fa0ad9b481c1acd6199b1d38f2d0f0c5&"
+            },
+            {
+              "tipo": "linha"
+            }
+          ]
+        }
+      },
+      "netflix_fa": {
+        "id": "netflix_fa",
+        "nome": "Netflix FA",
+        "preco": 11.6,
+        "ordem": 1,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+        "garantia": "7 dias após a entrega.",
+        "select": {
+          "rotulo": "Netflix FA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:netflix:1499177522729058334>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "FA",
+          "tipo": "selecao",
+          "nome_setup": "FA",
+          "publicar": true,
+          "titulo": "Streamings FA | Melhor Plano",
+          "descricao": "{E.truck} Entrega Automática!\n\n- FA significa **Full Access** — conta completa e exclusivamente sua.\n- **30 dias** de duração com **7 dias de garantia**.\n- Dúvidas? Chama no suporte antes de comprar.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+          "custom_id": "select_produto_fa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "prime_fa": {
+        "id": "prime_fa",
+        "nome": "Prime Video FA",
+        "preco": 5.8,
+        "ordem": 2,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+        "garantia": "7 dias após a entrega.",
+        "select": {
+          "rotulo": "Prime Video FA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:prime_video:1499177634863775938>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "FA",
+          "tipo": "selecao",
+          "nome_setup": "FA",
+          "publicar": true,
+          "titulo": "Streamings FA | Melhor Plano",
+          "descricao": "{E.truck} Entrega Automática!\n\n- FA significa **Full Access** — conta completa e exclusivamente sua.\n- **30 dias** de duração com **7 dias de garantia**.\n- Dúvidas? Chama no suporte antes de comprar.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+          "custom_id": "select_produto_fa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "crunchyroll_fa": {
+        "id": "crunchyroll_fa",
+        "nome": "Crunchyroll FA",
+        "preco": 4.8,
+        "ordem": 3,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+        "garantia": "7 dias após a entrega.",
+        "select": {
+          "rotulo": "Crunchyroll FA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:crunchyroll:1499177957074145340>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "FA",
+          "tipo": "selecao",
+          "nome_setup": "FA",
+          "publicar": true,
+          "titulo": "Streamings FA | Melhor Plano",
+          "descricao": "{E.truck} Entrega Automática!\n\n- FA significa **Full Access** — conta completa e exclusivamente sua.\n- **30 dias** de duração com **7 dias de garantia**.\n- Dúvidas? Chama no suporte antes de comprar.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+          "custom_id": "select_produto_fa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "paramount_fa": {
+        "id": "paramount_fa",
+        "nome": "Paramount+ FA",
+        "preco": 14.5,
+        "ordem": 4,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+        "garantia": "7 dias após a entrega.",
+        "select": {
+          "rotulo": "Paramount+ FA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:paramount:1499178162242977804>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "FA",
+          "tipo": "selecao",
+          "nome_setup": "FA",
+          "publicar": true,
+          "titulo": "Streamings FA | Melhor Plano",
+          "descricao": "{E.truck} Entrega Automática!\n\n- FA significa **Full Access** — conta completa e exclusivamente sua.\n- **30 dias** de duração com **7 dias de garantia**.\n- Dúvidas? Chama no suporte antes de comprar.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+          "custom_id": "select_produto_fa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "disney_fa": {
+        "id": "disney_fa",
+        "nome": "Disney+ FA",
+        "preco": 5.8,
+        "ordem": 5,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+        "garantia": "7 dias após a entrega.",
+        "select": {
+          "rotulo": "Disney+ FA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:disney:1499180297458290798>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "FA",
+          "tipo": "selecao",
+          "nome_setup": "FA",
+          "publicar": true,
+          "titulo": "Streamings FA | Melhor Plano",
+          "descricao": "{E.truck} Entrega Automática!\n\n- FA significa **Full Access** — conta completa e exclusivamente sua.\n- **30 dias** de duração com **7 dias de garantia**.\n- Dúvidas? Chama no suporte antes de comprar.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+          "custom_id": "select_produto_fa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "hbo_fa": {
+        "id": "hbo_fa",
+        "nome": "HBO Max FA",
+        "preco": 6.5,
+        "ordem": 6,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+        "garantia": "7 dias após a entrega.",
+        "select": {
+          "rotulo": "HBO Max FA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:hbo_max:1499177592249385090>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "FA",
+          "tipo": "selecao",
+          "nome_setup": "FA",
+          "publicar": true,
+          "titulo": "Streamings FA | Melhor Plano",
+          "descricao": "{E.truck} Entrega Automática!\n\n- FA significa **Full Access** — conta completa e exclusivamente sua.\n- **30 dias** de duração com **7 dias de garantia**.\n- Dúvidas? Chama no suporte antes de comprar.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+          "custom_id": "select_produto_fa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "netflix_nfa": {
+        "id": "netflix_nfa",
+        "nome": "Netflix NFA",
+        "preco": 2.1,
+        "ordem": 1,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+        "garantia": "somente na entrega (confirmado o acesso, encerra).",
+        "select": {
+          "rotulo": "Netflix NFA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:netflix:1499177522729058334>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "NFA",
+          "tipo": "selecao",
+          "nome_setup": "NFA",
+          "publicar": true,
+          "titulo": "Streamings NFA",
+          "descricao": "{E.truck} Entrega Automática!\n\n- NFA significa **Not Full Access** — conta compartilhada, preço acessível.\n- **30 dias** de duração. Garantia **somente na entrega**.\n- Sem trocas ou reembolsos após confirmação do acesso.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+          "custom_id": "select_produto_nfa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "paramount_nfa": {
+        "id": "paramount_nfa",
+        "nome": "Paramount+ NFA",
+        "preco": 1.8,
+        "ordem": 2,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+        "garantia": "somente na entrega (confirmado o acesso, encerra).",
+        "select": {
+          "rotulo": "Paramount+ NFA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:paramount:1499178162242977804>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "NFA",
+          "tipo": "selecao",
+          "nome_setup": "NFA",
+          "publicar": true,
+          "titulo": "Streamings NFA",
+          "descricao": "{E.truck} Entrega Automática!\n\n- NFA significa **Not Full Access** — conta compartilhada, preço acessível.\n- **30 dias** de duração. Garantia **somente na entrega**.\n- Sem trocas ou reembolsos após confirmação do acesso.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+          "custom_id": "select_produto_nfa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "crunchyroll_nfa": {
+        "id": "crunchyroll_nfa",
+        "nome": "Crunchyroll NFA",
+        "preco": 1.5,
+        "ordem": 3,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+        "garantia": "somente na entrega (confirmado o acesso, encerra).",
+        "select": {
+          "rotulo": "Crunchyroll NFA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:crunchyroll:1499177957074145340>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "NFA",
+          "tipo": "selecao",
+          "nome_setup": "NFA",
+          "publicar": true,
+          "titulo": "Streamings NFA",
+          "descricao": "{E.truck} Entrega Automática!\n\n- NFA significa **Not Full Access** — conta compartilhada, preço acessível.\n- **30 dias** de duração. Garantia **somente na entrega**.\n- Sem trocas ou reembolsos após confirmação do acesso.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+          "custom_id": "select_produto_nfa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "prime_nfa": {
+        "id": "prime_nfa",
+        "nome": "Prime Video NFA",
+        "preco": 1.8,
+        "ordem": 4,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+        "garantia": "somente na entrega (confirmado o acesso, encerra).",
+        "select": {
+          "rotulo": "Prime Video NFA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:prime_video:1499177634863775938>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "NFA",
+          "tipo": "selecao",
+          "nome_setup": "NFA",
+          "publicar": true,
+          "titulo": "Streamings NFA",
+          "descricao": "{E.truck} Entrega Automática!\n\n- NFA significa **Not Full Access** — conta compartilhada, preço acessível.\n- **30 dias** de duração. Garantia **somente na entrega**.\n- Sem trocas ou reembolsos após confirmação do acesso.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+          "custom_id": "select_produto_nfa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "hbo_nfa": {
+        "id": "hbo_nfa",
+        "nome": "HBO Max NFA",
+        "preco": 1.8,
+        "ordem": 5,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+        "garantia": "somente na entrega (confirmado o acesso, encerra).",
+        "select": {
+          "rotulo": "HBO Max NFA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:hbo_max:1499177592249385090>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "NFA",
+          "tipo": "selecao",
+          "nome_setup": "NFA",
+          "publicar": true,
+          "titulo": "Streamings NFA",
+          "descricao": "{E.truck} Entrega Automática!\n\n- NFA significa **Not Full Access** — conta compartilhada, preço acessível.\n- **30 dias** de duração. Garantia **somente na entrega**.\n- Sem trocas ou reembolsos após confirmação do acesso.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+          "custom_id": "select_produto_nfa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "nitro_link": {
+        "id": "nitro_link",
+        "nome": "Discord Nitro",
+        "preco": 3.8,
+        "ordem": 1,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498488386586017933/1500981464349540502/29_Sem_Titulo_20260430224115.png?ex=69fa696b&is=69f917eb&hm=3ed5ca16143ab944ad394993b08a1c8e80d7827905216e1d231d431135e9f606&",
+        "garantia": null,
+        "select": {
+          "rotulo": "Discord Nitro",
+          "descricao": "{preco} | {estado}",
+          "emoji": null
+        },
+        "botao": {
+          "label": "Comprar",
+          "style": 2,
+          "emoji": "@cart"
+        },
+        "sem_estoque": "manual",
+        "modelo": {
+          "estoque": "link",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "NITRO",
+          "tipo": "painel",
+          "nome_setup": "Nitro",
+          "publicar": true,
+          "blocos": [
+            {
+              "tipo": "texto",
+              "texto": "## <:nitro:1499588239185547284>  Discord Nitro\n### {preco}\n\n- Entrega automática de link de presente.\n- Funciona em contas sem Nitro há +1 ano.\n- Somente em contas com +30 dias de criação.\n- O link dura 1 mês após o resgate e tem 1 mês para ser usado."
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "estoque"
+            },
+            {
+              "tipo": "imagem",
+              "url": "https://cdn.discordapp.com/attachments/1498488386586017933/1500981464349540502/29_Sem_Titulo_20260430224115.png?ex=69fa696b&is=69f917eb&hm=3ed5ca16143ab944ad394993b08a1c8e80d7827905216e1d231d431135e9f606&"
+            },
+            {
+              "tipo": "linha"
+            }
+          ]
+        }
+      },
+      "spotify_1mes": {
+        "id": "spotify_1mes",
+        "nome": "Spotify Premium 1 Mês",
+        "preco": 4.2,
+        "ordem": 1,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073680758247615/51_Sem_Titulo_20260502065706.png?ex=69f7c4bb&is=69f6733b&hm=7016c1270aa8a6e7573a0001310c236ca529c80d27c74588f2d5d9656fce6520&",
+        "garantia": null,
+        "select": {
+          "rotulo": "1 Mês",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:spotify:1499886314156331098>"
+        },
+        "sem_estoque": "manual",
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "SPOTIFY",
+          "tipo": "painel",
+          "nome_setup": "Spotify",
+          "publicar": true,
+          "blocos": [
+            {
+              "tipo": "texto",
+              "texto": "## <:spotify:1499886314156331098>  Spotify Premium\nConta com **full acesso** — email, senha e todos os dados podem ser alterados por você.\n\n- Entrega manual realizada por um membro da equipe.\n- Troque o email da conta assim que receber, ou ela pode cair.\n- Garantia somente na entrega — confirmado o acesso, a garantia encerra."
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "estoque"
+            },
+            {
+              "tipo": "imagem",
+              "url": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073680758247615/51_Sem_Titulo_20260502065706.png?ex=69f7c4bb&is=69f6733b&hm=7016c1270aa8a6e7573a0001310c236ca529c80d27c74588f2d5d9656fce6520&"
+            },
+            {
+              "tipo": "linha"
+            }
+          ],
+          "seletor": {
+            "custom_id": "comprar_spotify_select",
+            "placeholder": "Selecione o plano..."
+          }
+        }
+      },
+      "spotify_2meses": {
+        "id": "spotify_2meses",
+        "nome": "Spotify Premium 2 Meses",
+        "preco": 5.2,
+        "ordem": 2,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073680758247615/51_Sem_Titulo_20260502065706.png?ex=69f7c4bb&is=69f6733b&hm=7016c1270aa8a6e7573a0001310c236ca529c80d27c74588f2d5d9656fce6520&",
+        "garantia": null,
+        "select": {
+          "rotulo": "2 Meses",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:spotify:1499886314156331098>"
+        },
+        "sem_estoque": "manual",
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "SPOTIFY",
+          "tipo": "painel",
+          "nome_setup": "Spotify",
+          "publicar": true,
+          "blocos": [
+            {
+              "tipo": "texto",
+              "texto": "## <:spotify:1499886314156331098>  Spotify Premium\nConta com **full acesso** — email, senha e todos os dados podem ser alterados por você.\n\n- Entrega manual realizada por um membro da equipe.\n- Troque o email da conta assim que receber, ou ela pode cair.\n- Garantia somente na entrega — confirmado o acesso, a garantia encerra."
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "estoque"
+            },
+            {
+              "tipo": "imagem",
+              "url": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073680758247615/51_Sem_Titulo_20260502065706.png?ex=69f7c4bb&is=69f6733b&hm=7016c1270aa8a6e7573a0001310c236ca529c80d27c74588f2d5d9656fce6520&"
+            },
+            {
+              "tipo": "linha"
+            }
+          ],
+          "seletor": {
+            "custom_id": "comprar_spotify_select",
+            "placeholder": "Selecione o plano..."
+          }
+        }
+      }
+    },
+    "config_json": {
+      "_comentario": "Padrões do bot. O bot nunca escreve neste arquivo. Chaves em 'editaveis' podem ser sobrepostas pelo banco (/loja config e /loja cargos); null em canais significa usar o .env.",
+      "prefixo": ">",
+      "nome_loja_padrao": "Store",
+      "cargos": {
+        "membro": "membro",
+        "equipe": "equipe",
+        "bots": "bots",
+        "cliente": "cliente"
+      },
+      "cargos_niveis": [
+        {
+          "valor": 0,
+          "cargo": "cliente"
+        },
+        {
+          "valor": 8.0,
+          "cargo": "cliente plus"
+        }
+      ],
+      "efemera_s": 30,
+      "mercado_pago_timeout_s": 20,
+      "entrega_fecha_dm_s": 10,
+      "reserva_max_minutos": 30,
+      "restock_pedidos_por_dia": 20,
+      "cores": {
+        "info": "#B0D4F1",
+        "sucesso": "#A8D5A2",
+        "aviso": "#FFAA00",
+        "erro": "#FF0000",
+        "entrega": "#D4AAFF",
+        "neutro": "#2B2D31"
+      },
+      "antinuke": {
+        "janela_s": 10,
+        "limite_criacao": 8,
+        "limite_exclusao": 5,
+        "bloqueio_s": 30
+      },
+      "raid": {
+        "limites": {
+          "channel_create": [
+            8,
+            10
+          ],
+          "channel_delete": [
+            5,
+            10
+          ],
+          "channel_update": [
+            5,
+            10
+          ],
+          "thread_create": [
+            5,
+            10
+          ],
+          "webhook_create": [
+            2,
+            10
+          ],
+          "bot_add": [
+            1,
+            60
+          ],
+          "role_create": [
+            3,
+            10
+          ],
+          "role_delete": [
+            3,
+            10
+          ],
+          "invite_create": [
+            5,
+            20
+          ],
+          "emoji_create": [
+            5,
+            20
+          ],
+          "ban_kick": [
+            3,
+            10
+          ],
+          "mencao": [
+            3,
+            10
+          ],
+          "member_join": [
+            20,
+            10
+          ],
+          "reaction": [
+            12,
+            10
+          ],
+          "role_update": [
+            3,
+            10
+          ],
+          "member_role_update": [
+            5,
+            10
+          ],
+          "guild_update": [
+            3,
+            10
+          ],
+          "thread_delete": [
+            3,
+            10
+          ],
+          "thread_update": [
+            5,
+            10
+          ],
+          "webhook_update": [
+            2,
+            10
+          ],
+          "webhook_delete": [
+            2,
+            10
+          ],
+          "member_prune": [
+            1,
+            60
+          ],
+          "message_bulk_delete": [
+            2,
+            10
+          ],
+          "scheduled_event_create": [
+            5,
+            10
+          ],
+          "scheduled_event_delete": [
+            3,
+            10
+          ],
+          "scheduled_event_update": [
+            5,
+            10
+          ]
+        },
+        "mencoes_max": 5,
+        "audit_janela_s": 15,
+        "cooldown_s": 30,
+        "reincidencia_s": 86400
+      },
+      "spam": {
+        "max_msgs": 5,
+        "janela_s": 5,
+        "timeout_s": 60,
+        "max_msgs_thread": 500
+      },
+      "editaveis": {
+        "logs_ativo": true,
+        "logs_channel_id": null,
+        "fa_channel_id": null,
+        "nfa_channel_id": null,
+        "suporte_channel_id": null,
+        "nitro_channel_id": null,
+        "capcut_channel_id": null,
+        "spotify_channel_id": null,
+        "pedido_restock_channel_id": null,
+        "aviso_restock_channel_id": "1498778038245003375"
+      },
+      "diario": {
+        "arquivo": "diario.jsonl"
+      }
+    },
+    "banco": {
+      "capcut_channel_id": "1559394678858719243",
+      "cargo_cliente_id": "1498808230707724310",
+      "cargo_equipe_id": "1498490128799109211",
+      "cargo_membro_id": "1498808095923507370",
+      "cargos_niveis": "[{\"valor\": 0, \"cargo\": \"cliente\", \"cargo_id\": \"1498808230707724310\"}, {\"valor\": 8.0, \"cargo\": \"cliente plus\"}]",
+      "fa_channel_id": "1559394682331463742",
+      "incidente:1498487072162582539": "{\"ativo\": true, \"fase\": \"contencao\", \"inicio\": 1791859060.6475766, \"ultima\": 1791909424.2949662, \"backup\": \"backup-2026-10-12-233646-636805.json\", \"convites_antes\": false, \"pausa_temporaria_antes\": null, \"pausa_ok\": true, \"alvos\": {\"1545212573119684690\": {\"ok\": true, \"motivo\": \"Altera\\u00e7\\u00e3o destrutiva/abusiva: channel_delete\", \"pena\": \"ban\", \"cargos_antes\": [1498487072162582539, 1559389421151850559]}}, \"falhas\": [\"Mensagem n\\u00e3o apagada: 1559395197014773831\", \"Mensagem n\\u00e3o apagada: 1559395206753681479\", \"Mensagem n\\u00e3o apagada: 1559395208372691027\", \"Mensagem n\\u00e3o apagada: 1559395215297478728\", \"Mensagem n\\u00e3o apagada: 1559395242208403489\", \"Mensagem n\\u00e3o apagada: 1559395257404104728\", \"Mensagem n\\u00e3o apagada: 1559395270385602697\", \"Mensagem n\\u00e3o apagada: 1559395274382909455\", \"Mensagem n\\u00e3o apagada: 1559395285988544584\", \"Mensagem n\\u00e3o apagada: 1559395287406219271\", \"Mensagem n\\u00e3o apagada: 1559395299351461999\"], \"mapa\": {\"1498489516183257098\": \"1559394673645064304\", \"1498488495738716201\": \"1559394677197639730\", \"1499144725599485993\": \"1559394680049897582\", \"1559359201325883493\": \"1559359231612952668\"}, \"modo_pausa\": \"permanente\", \"pausa_renovada\": 1791909424.6213026, \"revogar_convites\": [1071597617726886009, 1545212573119684690], \"cadeias\": {\"1545212573119684690\": {\"alvo\": 1545212573119684690, \"adicionou_bot\": 1071597617726886009, \"pessoa\": 1071597617726886009, \"convidou_pessoa\": \"desconhecido\", \"convite\": null, \"nota\": \"criador do convite n\\u00e3o prova quem compartilhou nem participa\\u00e7\\u00e3o na raid\"}}, \"erro\": {\"feitos\": [\"nome/descri\\u00e7\\u00e3o/\\u00edcone/banner\", \"ordem dos cargos restaurada\", \"canal \\ud835\\udc7a\\ud835\\udc95\\ud835\\udc93\\ud835\\udc86\\ud835\\udc82\\ud835\\udc8e\\ud835\\udc8a\\ud835\\udc8f\\ud835\\udc88\\ud835\\udc94-\\ud835\\udc6d\\ud835\\udc68 ajustado\", \"canal \\ud835\\udc7a\\ud835\\udc95\\ud835\\udc93\\ud835\\udc86\\ud835\\udc82\\ud835\\udc8e\\ud835\\udc8a\\ud835\\udc8f\\ud835\\udc88\\ud835\\udc94-\\ud835\\udc75\\ud835\\udc6d\\ud835\\udc68 ajustado\", \"canal \\u2727\\u0f3a\\uff65\\uff9f-\\ud835\\udc79\\ud835\\udc90\\ud835\\udc83\\ud835\\udc96\\ud835\\udc99-\\uff65\\uff9f\\u0f3b\\u2727 ajustado\", \"canal \\u00ab-\\u266a\\ud835\\udc7a\\ud835\\udc91\\ud835\\udc90\\ud835\\udc95\\ud835\\udc8a\\ud835\\udc87\\ud835\\udc9a\\u266c\\u2022-\\u00bb ajustado\", \"canal \\u21a0\\u00b0\\u2022\\ud835\\udc75\\ud835\\udc8a\\ud835\\udc95\\ud835\\udc93\\ud835\\udc90\\u2606-\\u22b4 ajustado\", \"canal \\uff65\\uff9f-\\u2606\\uff65\\uff9f-\\ud835\\udc6a\\ud835\\udc82\\ud835\\udc91\\ud835\\udc6a\\ud835\\udc96\\ud835\\udc95-\\uff65\\uff9f\\u2606\\uff65\\uff9f ajustado\", \"canal \\uff65\\uff9f-\\u2727\\uff65\\uff9f-\\ud835\\udc70\\ud835\\udc8f\\ud835\\udc94\\ud835\\udc95\\ud835\\udc82\\ud835\\udc88\\ud835\\udc93\\ud835\\udc82\\ud835\\udc8e\\uff65\\uff9f\\u2727\\uff65\\uff9f ajustado\", \"canal \\u0f3a\\u2727\\uff65\\uff9f-\\u2726-\\ud835\\udc7b\\ud835\\udc8a\\ud835\\udc8c\\ud835\\udc7b\\ud835\\udc90\\ud835\\udc8c\\u2726-\\uff65\\uff9f\\u2727\\u0f3b ajustado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"canal oi recriado\", \"t\\u00f3pico Restock \\u2022 CapCut Pro recriado\", \"t\\u00f3pico Restock \\u2022 HBO Max FA recriado\", \"t\\u00f3pico Restock \\u2022 Crunchyroll NFA recriado\", \"t\\u00f3pico Restock \\u2022 Prime Video FA recriado\", \"t\\u00f3pico Restock \\u2022 Netflix FA recriado\", \"t\\u00f3pico Restock \\u2014 Crunchyroll FA recriado\", \"t\\u00f3pico Restock \\u2014 Netflix FA recriado\", \"t\\u00f3pico Suporte \\u2014 renanzinpp15 recriado\", \"t\\u00f3pico Pedido \\u2014 renanzinpp15 recriado\", \"t\\u00f3pico Pedido \\u2014 lukuinhas1_l recriado\", \"t\\u00f3pico \\ud83d\\uded2 renanzinpp15 recriado\", \"t\\u00f3pico \\ud83d\\uded2 fiat_uno638671 recriado\", \"481 mensagens restauradas\"], \"avisos\": [\"remo\\u00e7\\u00e3o 1559395299351461999: Discord HTTP 400\", \"remo\\u00e7\\u00e3o 1559395299351461999: Discord HTTP 400\", \"remo\\u00e7\\u00e3o 1559395274382909455: Discord HTTP 400\", \"remo\\u00e7\\u00e3o 1559395270385602697: Discord HTTP 400\", \"remo\\u00e7\\u00e3o 1559395257404104728: Discord HTTP 400\", \"remo\\u00e7\\u00e3o 1559395242208403489: Discord HTTP 400\", \"remo\\u00e7\\u00e3o 1559395242208403489: Discord HTTP 400\", \"remo\\u00e7\\u00e3o 1559395242208403489: Discord HTTP 400\", \"remo\\u00e7\\u00e3o 1559395215297478728: Discord HTTP 400\", \"remo\\u00e7\\u00e3o 1559395208372691027: Discord HTTP 400\", \"remo\\u00e7\\u00e3o 1559395206753681479: Discord HTTP 400\", \"remo\\u00e7\\u00e3o 1559395287406219271: Discord HTTP 400\", \"remo\\u00e7\\u00e3o 1559395285988544584: Discord HTTP 400\", \"remo\\u00e7\\u00e3o 1559395197014773831: Discord HTTP 403\", \"capcut_channel_id atualizado\", \"fa_channel_id atualizado\", \"nfa_channel_id atualizado\", \"nitro_channel_id atualizado\", \"pedido_restock_channel_id atualizado no .env\", \"spotify_channel_id atualizado\", \"suporte_channel_id atualizado\", \"SALES_CHANNEL_ID atualizado no .env\", \"AGENT_CHANNEL_ID atualizado no .env\", \"vitrine CAPCUT ser\\u00e1 publicada de novo\", \"vitrine FA ser\\u00e1 publicada de novo\", \"vitrine NFA ser\\u00e1 publicada de novo\", \"vitrine NITRO ser\\u00e1 publicada de novo\", \"vitrine SPOTIFY ser\\u00e1 publicada de novo\", \"vitrine PEDIDO_RESTOCK ser\\u00e1 publicada de novo\", \"vitrine SUPORTE ser\\u00e1 publicada de novo\", \"etapa configura\\u00e7\\u00f5es falhou: 'NoneType' object has no attribute 'id'\"], \"contencao\": [\"Mensagem n\\u00e3o apagada: 1559395197014773831\", \"Mensagem n\\u00e3o apagada: 1559395206753681479\", \"Mensagem n\\u00e3o apagada: 1559395208372691027\", \"Mensagem n\\u00e3o apagada: 1559395215297478728\", \"Mensagem n\\u00e3o apagada: 1559395242208403489\", \"Mensagem n\\u00e3o apagada: 1559395257404104728\", \"Mensagem n\\u00e3o apagada: 1559395270385602697\", \"Mensagem n\\u00e3o apagada: 1559395274382909455\", \"Mensagem n\\u00e3o apagada: 1559395285988544584\", \"Mensagem n\\u00e3o apagada: 1559395287406219271\", \"Mensagem n\\u00e3o apagada: 1559395299351461999\"]}}",
+      "logs_channel_id": "1498488386586017933",
+      "migracao_avisos": "1",
+      "nfa_channel_id": "1559394677088723007",
+      "nitro_channel_id": "1559394676862226454",
+      "replay:1559394673645064304:1498824720764768356": "1559395605887844403",
+      "replay:1559394673645064304:1498826551314088079": "1559395607867687055",
+      "replay:1559394673645064304:1498843712870944818": "1559395609541345321",
+      "replay:1559394673645064304:1498850654100127877": "1559395611558813699",
+      "replay:1559394673645064304:1498851030983774270": "1559395613374681120",
+      "replay:1559394673645064304:1498851100135002155": "1559395615706972184",
+      "replay:1559394673645064304:1498851296822693918": "1559395617229381726",
+      "replay:1559394673645064304:1498852155279413398": "1559395618936324137",
+      "replay:1559394673645064304:1498852165819695215": "1559395620500807701",
+      "replay:1559394673645064304:1498853793536806925": "1559395621872468004",
+      "replay:1559394673645064304:1498854724030693386": "1559395623856382016",
+      "replay:1559394673645064304:1498854728392642712": "1559395625169330239",
+      "replay:1559394673645064304:1498854745178243092": "1559395626880471071",
+      "replay:1559394673645064304:1498924542423470170": "1559395628340092931",
+      "replay:1559394673645064304:1499243295518232727": "1559395632626671688",
+      "replay:1559394673645064304:1499250253587808306": "1559395634409119825",
+      "replay:1559394673645064304:1499512917089980648": "1559395636124590154",
+      "replay:1559394673645064304:1499513990483542177": "1559395638133919796",
+      "replay:1559394673645064304:1499514922906685481": "1559395639647928452",
+      "replay:1559394673645064304:1499909549660967016": "1559395642080501903",
+      "replay:1559394673645064304:1500114196954873917": "1559395643670266008",
+      "replay:1559394673645064304:1500339666577260636": "1559395645411033190",
+      "replay:1559394673645064304:1500339709769941162": "1559395647113920634",
+      "replay:1559394673645064304:1500339797317648404": "1559395648527409203",
+      "replay:1559394673645064304:1500339807262478346": "1559395650309849233",
+      "replay:1559394673645064304:1500339814703173663": "1559395652620914809",
+      "replay:1559394673645064304:1500339886517915669": "1559395654470598667",
+      "replay:1559394673645064304:1500339900686536949": "1559395656014237707",
+      "replay:1559394673645064304:1500339911029686374": "1559395657062809644",
+      "replay:1559394673645064304:1500339979291988131": "1559395658841063496",
+      "replay:1559394673645064304:1500340026754601080": "1559395660418261143",
+      "replay:1559394673645064304:1500340131125792982": "1559395661747585035",
+      "replay:1559394673645064304:1500340142244757634": "1559395663652061195",
+      "replay:1559394673645064304:1500340172426969148": "1559395665631645767",
+      "replay:1559394673645064304:1500340176017293386": "1559395667083005963",
+      "replay:1559394673645064304:1500340184825204937": "1559395669058261033",
+      "replay:1559394673645064304:1500340324751511552": "1559395670929047644",
+      "replay:1559394673645064304:1500340339242832014": "1559395673244172410",
+      "replay:1559394673645064304:1500340348709244952": "1559395682568110113",
+      "replay:1559394673645064304:1500340361556525148": "1559395691435130931",
+      "replay:1559394673645064304:1500340381588525147": "1559395699202981889",
+      "replay:1559394673645064304:1500340393911390309": "1559395707809562745",
+      "replay:1559394673645064304:1500340434143281343": "1559395716625858672",
+      "replay:1559394673645064304:1500340436957528075": "1559395731385884673",
+      "replay:1559394673645064304:1500340472600858767": "1559395732845367347",
+      "replay:1559394673645064304:1500340475482079283": "1559395741414195232",
+      "replay:1559394673645064304:1500340489918873630": "1559395749802942498",
+      "replay:1559394673645064304:1500340509984428203": "1559395757931372631",
+      "replay:1559394673645064304:1500340538942161007": "1559395766106067000",
+      "replay:1559394673645064304:1500340547275985037": "1559395774750527580",
+      "replay:1559394673645064304:1500340568595759207": "1559395783080677417",
+      "replay:1559394673645064304:1500340588325765231": "1559395791645319169",
+      "replay:1559394673645064304:1500341997020385282": "1559395800000495627",
+      "replay:1559394673645064304:1500342385228513442": "1559395808338518179",
+      "replay:1559394676862226454:1559135447266099211": "1559395601093754883",
+      "replay:1559394677088723007:1525544628542111956": "1559395575550578830",
+      "replay:1559394677088723007:1525544660754501634": "1559395576674521091",
+      "replay:1559394677088723007:1525545160086130859": "1559395579027791893",
+      "replay:1559394677088723007:1525545166637764699": "1559395580550320209",
+      "replay:1559394677088723007:1525545169502343318": "1559395581984772200",
+      "replay:1559394677088723007:1525545172065189960": "1559395583515435081",
+      "replay:1559394677088723007:1559135440676716627": "1559395585621229672",
+      "replay:1559394677570928700:1498856224563925214": "1559395840177606767",
+      "replay:1559394677570928700:1498856240107884676": "1559395841595412657",
+      "replay:1559394677570928700:1498856297209008190": "1559395843524657274",
+      "replay:1559394677570928700:1498856320345047100": "1559395844849934367",
+      "replay:1559394677570928700:1498869389993312257": "1559395846259347488",
+      "replay:1559394677570928700:1498869397035548722": "1559395847878352928",
+      "replay:1559394677570928700:1498869428962725919": "1559395849136635915",
+      "replay:1559394677570928700:1499056034642399365": "1559395850558505053",
+      "replay:1559394677570928700:1499056084110020751": "1559395853058183309",
+      "replay:1559394677570928700:1499056095019139242": "1559395855520235542",
+      "replay:1559394677570928700:1499056123150336180": "1559395857130983516",
+      "replay:1559394677570928700:1499140329318776913": "1559395858745925734",
+      "replay:1559394677747093654:1498797269972160592": "1559398449021984829",
+      "replay:1559394677747093654:1498811209145913475": "1559398450825793641",
+      "replay:1559394677747093654:1498811314615750776": "1559398452650057739",
+      "replay:1559394677747093654:1498811521910702102": "1559398455158505473",
+      "replay:1559394677747093654:1498811615301075095": "1559398456919990303",
+      "replay:1559394677747093654:1498812285316104293": "1559398458320752696",
+      "replay:1559394677747093654:1498814361710493846": "1559398460631810110",
+      "replay:1559394677747093654:1498819424021381300": "1559398462439825419",
+      "replay:1559394677747093654:1498819497312653452": "1559398463546982492",
+      "replay:1559394677747093654:1498819624743997511": "1559398465342280082",
+      "replay:1559394677747093654:1498819707409797351": "1559398466826932336",
+      "replay:1559394677747093654:1498854803831259397": "1559398468273963119",
+      "replay:1559394677747093654:1498854820239507516": "1559398469586649180",
+      "replay:1559394677747093654:1498854895745237142": "1559398471038017689",
+      "replay:1559394677747093654:1498855077283233908": "1559398472770130022",
+      "replay:1559394677747093654:1498937030611173376": "1559398474699513916",
+      "replay:1559394677747093654:1499222025040822463": "1559398476209463307",
+      "replay:1559394677747093654:1523172925484564622": "1559398477518217268",
+      "replay:1559394678858719243:1559172730589290638": "1559395813921136733",
+      "replay:1559394680049897582:1559135453041393665": "1559398481838346323",
+      "replay:1559394681245147187:1498841704764018719": "1559395875715944551",
+      "replay:1559394681245147187:1498841715241517086": "1559395877745852427",
+      "replay:1559394681245147187:1498843750149918841": "1559395879461322833",
+      "replay:1559394681245147187:1498843759364800662": "1559395882862911539",
+      "replay:1559394681245147187:1499187487988514906": "1559395884448485396",
+      "replay:1559394681245147187:1499218423920722051": "1559395885937459320",
+      "replay:1559394681245147187:1499218438009389350": "1559395887510458392",
+      "replay:1559394681245147187:1499218460209840219": "1559395889053700137",
+      "replay:1559394681245147187:1499218473182695484": "1559395890534551635",
+      "replay:1559394681245147187:1499218629378707577": "1559395892128251997",
+      "replay:1559394681245147187:1499218646919024811": "1559395892073861213",
+      "replay:1559394681245147187:1499218657358643232": "1559395902999896178",
+      "replay:1559394681245147187:1499218711075356733": "1559395904790859879",
+      "replay:1559394681245147187:1499218757955092521": "1559395906099478549",
+      "replay:1559394681245147187:1499218841920733215": "1559395907256983625",
+      "replay:1559394681245147187:1499219002634014862": "1559395910012899360",
+      "replay:1559394681245147187:1499219033302765569": "1559395914735558680",
+      "replay:1559394681245147187:1499219053875560639": "1559395919097630751",
+      "replay:1559394681245147187:1499219123245416481": "1559395920351862818",
+      "replay:1559394681245147187:1499219143583338536": "1559395923354976307",
+      "replay:1559394681245147187:1499219173874864148": "1559395925946925169",
+      "replay:1559394681245147187:1499219207567708181": "1559395927750353090",
+      "replay:1559394681245147187:1499220342021951518": "1559395929084272723",
+      "replay:1559394681245147187:1499222058658431057": "1559395930623582332",
+      "replay:1559394681245147187:1499222112332939415": "1559395932519403581",
+      "replay:1559394681245147187:1499222147208450158": "1559395935123939429",
+      "replay:1559394681245147187:1499222166510632960": "1559395941855924326",
+      "replay:1559394681245147187:1499222202976043068": "1559395943588302909",
+      "replay:1559394681245147187:1499222241668497448": "1559395944812908606",
+      "replay:1559394681245147187:1499222261352235050": "1559395946565992519",
+      "replay:1559394681245147187:1499222280818003999": "1559395947979739178",
+      "replay:1559394681245147187:1499222354771968190": "1559395951301632102",
+      "replay:1559394681245147187:1499222380889903234": "1559395952375238791",
+      "replay:1559394681245147187:1499222388137656500": "1559395954959061064",
+      "replay:1559394681245147187:1499222406651445318": "1559395957400150100",
+      "replay:1559394681245147187:1499222549081620641": "1559395959912402966",
+      "replay:1559394681245147187:1499223126737686710": "1559395962261086261",
+      "replay:1559394681245147187:1499223139341701280": "1559395963603255388",
+      "replay:1559394681245147187:1499223281700442173": "1559395964853420134",
+      "replay:1559394681245147187:1499224477626798281": "1559395965767647235",
+      "replay:1559394681245147187:1499224498195402874": "1559395969701781565",
+      "replay:1559394681245147187:1499224532140032010": "1559395977255714830",
+      "replay:1559394681245147187:1499224543565451467": "1559395986063761513",
+      "replay:1559394681245147187:1499224556383113328": "1559395994695634986",
+      "replay:1559394681245147187:1499224604621799484": "1559396002920931461",
+      "replay:1559394681245147187:1499224638968827905": "1559396011225653269",
+      "replay:1559394681245147187:1499224664197566626": "1559396019949797427",
+      "replay:1559394681245147187:1499225766393548984": "1559396028120039642",
+      "replay:1559394681245147187:1499225960535298128": "1559396036240343064",
+      "replay:1559394681245147187:1499226060485693541": "1559396044846923847",
+      "replay:1559394681245147187:1499226283920326746": "1559396053365694525",
+      "replay:1559394681245147187:1499226292589957213": "1559396061531865139",
+      "replay:1559394681245147187:1499226308515729558": "1559396069710897306",
+      "replay:1559394681245147187:1499226351733964952": "1559396078413938711",
+      "replay:1559394681245147187:1499229475521691669": "1559396086383386708",
+      "replay:1559394681245147187:1499229540419895427": "1559396095094820896",
+      "replay:1559394681245147187:1499229548766560337": "1559396104104185998",
+      "replay:1559394681245147187:1499229574305812500": "1559396112081879173",
+      "replay:1559394681245147187:1499229602885927003": "1559396120290132000",
+      "replay:1559394681245147187:1499229612557992056": "1559396129928642592",
+      "replay:1559394681245147187:1499229654387654696": "1559396137096716390",
+      "replay:1559394681245147187:1499229823653122061": "1559396145682321409",
+      "replay:1559394681245147187:1499229942066450552": "1559396153705893951",
+      "replay:1559394681245147187:1499229977483280526": "1559396162371592244",
+      "replay:1559394681245147187:1499229989290119229": "1559396170587963423",
+      "replay:1559394681245147187:1499230100124864644": "1559396179354062920",
+      "replay:1559394681245147187:1499230212062314609": "1559396187323244606",
+      "replay:1559394681245147187:1499230231548919910": "1559396195653390450",
+      "replay:1559394681245147187:1499230256106836038": "1559396204188667966",
+      "replay:1559394681245147187:1499230480879456368": "1559396212598378566",
+      "replay:1559394681245147187:1499230486420263035": "1559396221272203315",
+      "replay:1559394681245147187:1499230720403570688": "1559396229400764518",
+      "replay:1559394681245147187:1499230771301584987": "1559396237617143994",
+      "replay:1559394681245147187:1499230855409959073": "1559396246366585004",
+      "replay:1559394681245147187:1499230867619315742": "1559396254591492188",
+      "replay:1559394681245147187:1499231122951901286": "1559396263143678027",
+      "replay:1559394681245147187:1499231165285138533": "1559396271310245972",
+      "replay:1559394681245147187:1499231177847078932": "1559396279937794130",
+      "replay:1559394681245147187:1499231484484124764": "1559396288091390093",
+      "replay:1559394681245147187:1499231500800102400": "1559396296526139393",
+      "replay:1559394681245147187:1499231622204100670": "1559396304797433887",
+      "replay:1559394681245147187:1499231632538992852": "1559396313412538519",
+      "replay:1559394681245147187:1499231640180756560": "1559396321289568358",
+      "replay:1559394681245147187:1499231678231740426": "1559396330215047290",
+      "replay:1559394681245147187:1499231690550280292": "1559396338607849533",
+      "replay:1559394681245147187:1499231701245886484": "1559396346744676363",
+      "replay:1559394681245147187:1499289398016213053": "1559396355032485968",
+      "replay:1559394681245147187:1499384276137807962": "1559396363723083858",
+      "replay:1559394681245147187:1499478926660206693": "1559396371965026355",
+      "replay:1559394681245147187:1499518119322845256": "1559396380634517646",
+      "replay:1559394681245147187:1500114306166030419": "1559396388897431702",
+      "replay:1559394681245147187:1500114316177833995": "1559396397332172821",
+      "replay:1559394681245147187:1500114342882967702": "1559396405892612127",
+      "replay:1559394681245147187:1500209185273544855": "1559396413610131590",
+      "replay:1559394681245147187:1500303429090676788": "1559396422116450347",
+      "replay:1559394681245147187:1500312470852472875": "1559396431268155433",
+      "replay:1559394681245147187:1500312557976555531": "1559396439585726466",
+      "replay:1559394681245147187:1500312594416926820": "1559396447567216772",
+      "replay:1559394681245147187:1500312612674474145": "1559396455796445265",
+      "replay:1559394681245147187:1500312640277450773": "1559396464189378561",
+      "replay:1559394681245147187:1500312712486457577": "1559396472644968499",
+      "replay:1559394681245147187:1500312738533216416": "1559396480660275295",
+      "replay:1559394681245147187:1500312739376267304": "1559396490022097000",
+      "replay:1559394681245147187:1500312759190163487": "1559396497815113749",
+      "replay:1559394681245147187:1500312769126465566": "1559396506782666844",
+      "replay:1559394681245147187:1500312802215071796": "1559396514617360535",
+      "replay:1559394681245147187:1500312813007278141": "1559396522976874567",
+      "replay:1559394681245147187:1500312944804757645": "1559396531780587652",
+      "replay:1559394681245147187:1500312964962717858": "1559396539711889529",
+      "replay:1559394681245147187:1500312974802554920": "1559396548054622290",
+      "replay:1559394681245147187:1500313015164211250": "1559396556707205201",
+      "replay:1559394681245147187:1500313058461876374": "1559396564965920899",
+      "replay:1559394681245147187:1500313319511425155": "1559396573157269639",
+      "replay:1559394681245147187:1500313457931587725": "1559396581961371658",
+      "replay:1559394681245147187:1500313471387045908": "1559396590706499676",
+      "replay:1559394681245147187:1500313485438091366": "1559396598008782892",
+      "replay:1559394681245147187:1500313544284180510": "1559396606816559155",
+      "replay:1559394681245147187:1500313608108773566": "1559396615226261535",
+      "replay:1559394681245147187:1500313616442986546": "1559396623900090459",
+      "replay:1559394681245147187:1500313698793951402": "1559396631852486823",
+      "replay:1559394681245147187:1500313823578558474": "1559396640463265834",
+      "replay:1559394681245147187:1500313833032519710": "1559396648797339729",
+      "replay:1559394681245147187:1500313835750555800": "1559396657034956893",
+      "replay:1559394681245147187:1500313848849104937": "1559396665675489331",
+      "replay:1559394681245147187:1500313855191158794": "1559396674055438388",
+      "replay:1559394681245147187:1500313866964570142": "1559396681961701379",
+      "replay:1559394681245147187:1500313878871937115": "1559396690832785460",
+      "replay:1559394681245147187:1500313889592578159": "1559396698692919309",
+      "replay:1559394681245147187:1500314171365920910": "1559396707853144065",
+      "replay:1559394681245147187:1500314183625871381": "1559396715935571979",
+      "replay:1559394681245147187:1500314273019334848": "1559396724404125738",
+      "replay:1559394681245147187:1500314277418893375": "1559396732687618129",
+      "replay:1559394681245147187:1500314297149034509": "1559396741394989139",
+      "replay:1559394681245147187:1500314319160741980": "1559396749238341684",
+      "replay:1559394681245147187:1500314346176385126": "1559396758172336200",
+      "replay:1559394681245147187:1500314362370588753": "1559396766632378429",
+      "replay:1559394681245147187:1500314414489010196": "1559396774626594818",
+      "replay:1559394681245147187:1500314437935042640": "1559396783791280178",
+      "replay:1559394681245147187:1500314449716969554": "1559396791533834313",
+      "replay:1559394681245147187:1500314500107079831": "1559396799968452713",
+      "replay:1559394681245147187:1500314662254940251": "1559396809024081931",
+      "replay:1559394681245147187:1500315016879149217": "1559396817102307358",
+      "replay:1559394681245147187:1500315019349459014": "1559396824849063959",
+      "replay:1559394681245147187:1500315031126937620": "1559396832998719594",
+      "replay:1559394681245147187:1500315297842729080": "1559396841500577824",
+      "replay:1559394681245147187:1500315354851971082": "1559396850338103360",
+      "replay:1559394681245147187:1500315356261126214": "1559396858483314710",
+      "replay:1559394681245147187:1500315370828075189": "1559396867098284045",
+      "replay:1559394681245147187:1500317596082376867": "1559396875478630474",
+      "replay:1559394681245147187:1500317604127047730": "1559396883313463379",
+      "replay:1559394681245147187:1500317636372730098": "1559396892025028641",
+      "replay:1559394681245147187:1500317645894058155": "1559396900455718995",
+      "replay:1559394681245147187:1500317663602151424": "1559396909058236488",
+      "replay:1559394681245147187:1500317696762314964": "1559396917530595329",
+      "replay:1559394681245147187:1500317714324132053": "1559396927395860586",
+      "replay:1559394681245147187:1500317732455841832": "1559396933439852656",
+      "replay:1559394681245147187:1500317742606323752": "1559396942780567663",
+      "replay:1559394681245147187:1500317764257058878": "1559396950774653039",
+      "replay:1559394681245147187:1500317817336238090": "1559396959083560962",
+      "replay:1559394681245147187:1500319347774849125": "1559396967736410173",
+      "replay:1559394681245147187:1500320741386616924": "1559396976016232575",
+      "replay:1559394681245147187:1500320746021454056": "1559397004163948547",
+      "replay:1559394681245147187:1500320759753474148": "1559397006202376274",
+      "replay:1559394681245147187:1500320775322996776": "1559397008312246333",
+      "replay:1559394681245147187:1500320797385031802": "1559397011206176831",
+      "replay:1559394681245147187:1500320808667582656": "1559397018458128446",
+      "replay:1559394681245147187:1500322183493193800": "1559397026289164392",
+      "replay:1559394681245147187:1500322826689970199": "1559397034954457191",
+      "replay:1559394681245147187:1500323852473995324": "1559397043192205424",
+      "replay:1559394681245147187:1500323891497795654": "1559397051387613275",
+      "replay:1559394681245147187:1500323904596476016": "1559397063568138291",
+      "replay:1559394681245147187:1500323920639688894": "1559397068139798632",
+      "replay:1559394681245147187:1500323941263081583": "1559397076599570533",
+      "replay:1559394681245147187:1500323951178551507": "1559397085567131719",
+      "replay:1559394681245147187:1500323964734410852": "1559397093934760100",
+      "replay:1559394681245147187:1500323974872039524": "1559397101618724867",
+      "replay:1559394681245147187:1500325413237293246": "1559397110351265812",
+      "replay:1559394681245147187:1500325550042910810": "1559397119041994895",
+      "replay:1559394681245147187:1500325814309486602": "1559397128135245844",
+      "replay:1559394681245147187:1500326219533778984": "1559397135613427755",
+      "replay:1559394681245147187:1500326854505005076": "1559397144111222784",
+      "replay:1559394681245147187:1500326854622449806": "1559397152126410813",
+      "replay:1559394681245147187:1500326934855422082": "1559397160682922027",
+      "replay:1559394681245147187:1500327262355193907": "1559397169251881010",
+      "replay:1559394681245147187:1500327295942922420": "1559397177363800226",
+      "replay:1559394681245147187:1500327328432001097": "1559397185659867233",
+      "replay:1559394681245147187:1500327368483672084": "1559397194467901532",
+      "replay:1559394681245147187:1500327502759989421": "1559397202517037100",
+      "replay:1559394681245147187:1500327509143851148": "1559397211035668483",
+      "replay:1559394681245147187:1500327556967039156": "1559397219390722072",
+      "replay:1559394681245147187:1500327681450053713": "1559397227779325974",
+      "replay:1559394681245147187:1500327695546974259": "1559397236528517146",
+      "replay:1559394681245147187:1500327697736405204": "1559397245298671678",
+      "replay:1559394681245147187:1500327732775489546": "1559397252810932316",
+      "replay:1559394681245147187:1500327908730732545": "1559397261837082625",
+      "replay:1559394681245147187:1500327918503727265": "1559397269634031699",
+      "replay:1559394681245147187:1500327968566673572": "1559397277955522613",
+      "replay:1559394681245147187:1500327982475116704": "1559397286302187582",
+      "replay:1559394681245147187:1500328073915142145": "1559397295051636828",
+      "replay:1559394681245147187:1500328131662446752": "1559397303230668911",
+      "replay:1559394681245147187:1500328922691141704": "1559397311828987926",
+      "replay:1559394681245147187:1500328950252175462": "1559397319898828841",
+      "replay:1559394681245147187:1500328967108952234": "1559397328333312132",
+      "replay:1559394681245147187:1500328972867866895": "1559397336717856799",
+      "replay:1559394681245147187:1500328979868155985": "1559397344976437280",
+      "replay:1559394681245147187:1500329047966617661": "1559397353230831670",
+      "replay:1559394681245147187:1500329065394212956": "1559397362282012723",
+      "replay:1559394681245147187:1500331322873483325": "1559397369966108765",
+      "replay:1559394681245147187:1500331783554728077": "1559397378639921255",
+      "replay:1559394681245147187:1500331788344758323": "1559397387238379563",
+      "replay:1559394681245147187:1500333506511769774": "1559397395253563426",
+      "replay:1559394681245147187:1500333534647156966": "1559397403805880411",
+      "replay:1559394681245147187:1500333541853237249": "1559397412546543667",
+      "replay:1559394681245147187:1500333550308954163": "1559397420561862657",
+      "replay:1559394681245147187:1500333592398528584": "1559397428887552043",
+      "replay:1559394681245147187:1500333650615730298": "1559397437758644307",
+      "replay:1559394681245147187:1500333716973551717": "1559397445774090242",
+      "replay:1559394681245147187:1500334004761526412": "1559397454129004576",
+      "replay:1559394681245147187:1500334079944691742": "1559397462295318561",
+      "replay:1559394681245147187:1500334124534071540": "1559397471002693703",
+      "replay:1559394681245147187:1500334163591565332": "1559397479634698294",
+      "replay:1559394681245147187:1500334167953772634": "1559397487574253699",
+      "replay:1559394681245147187:1500334181597581383": "1559397496625696881",
+      "replay:1559394681245147187:1500338843109429490": "1559397504485691525",
+      "replay:1559394681245147187:1500339044062855299": "1559397512589222001",
+      "replay:1559394681245147187:1500339049305735229": "1559397520960917598",
+      "replay:1559394681245147187:1500339102984179825": "1559397529773146166",
+      "replay:1559394681245147187:1500339193241407578": "1559397538266615900",
+      "replay:1559394681245147187:1500339251412472038": "1559397546349170701",
+      "replay:1559394681245147187:1500339260795125791": "1559397555048157206",
+      "replay:1559394681245147187:1500339317539868764": "1559397562887442486",
+      "replay:1559394681245147187:1500339367082852456": "1559397571779240038",
+      "replay:1559394681245147187:1500339504957882410": "1559397580360909044",
+      "replay:1559394681245147187:1500339598117572688": "1559397588233359403",
+      "replay:1559394681245147187:1500339630086557808": "1559397596643201097",
+      "replay:1559394681245147187:1500340779619586120": "1559397605740650583",
+      "replay:1559394681245147187:1500340824116957184": "1559397613642457250",
+      "replay:1559394681245147187:1500340882124050453": "1559397623327101002",
+      "replay:1559394681245147187:1500340897441779882": "1559397630604222566",
+      "replay:1559394681245147187:1500340933084975154": "1559397638749683784",
+      "replay:1559394681245147187:1500341038416658584": "1559397647180374137",
+      "replay:1559394681245147187:1500341078824325181": "1559397655396753409",
+      "replay:1559394681245147187:1500341094620074054": "1559397664075030551",
+      "replay:1559394681245147187:1500341131299524674": "1559397672438202431",
+      "replay:1559394681245147187:1500341383121080520": "1559397680545796167",
+      "replay:1559394681245147187:1500341427601936455": "1559397689106374817",
+      "replay:1559394681245147187:1500341435243954266": "1559397697323147359",
+      "replay:1559394681245147187:1500342456292479190": "1559397705686581361",
+      "replay:1559394681245147187:1500342464312119348": "1559397714100494417",
+      "replay:1559394681245147187:1500342464316178554": "1559397722564329563",
+      "replay:1559394681245147187:1500342467843854508": "1559397730877575169",
+      "replay:1559394681245147187:1500342475598991401": "1559397739706712155",
+      "replay:1559394681245147187:1500342476991631370": "1559397747797401622",
+      "replay:1559394681245147187:1500342523862843522": "1559397756811092010",
+      "replay:1559394681245147187:1500342529244139680": "1559397764704632995",
+      "replay:1559394681245147187:1500342609778839584": "1559397773043044384",
+      "replay:1559394681245147187:1500342643664883762": "1559397781573996625",
+      "replay:1559394681245147187:1500342664837468273": "1559397789857878158",
+      "replay:1559394681245147187:1500342743866675393": "1559397797889974389",
+      "replay:1559394681245147187:1500342783410438185": "1559397806345814131",
+      "replay:1559394681245147187:1500342801135698011": "1559397815065780336",
+      "replay:1559394681245147187:1500342824405565631": "1559397823861227592",
+      "replay:1559394681245147187:1500342913048117320": "1559397831838802011",
+      "replay:1559394681245147187:1500343197036187689": "1559397839975481426",
+      "replay:1559394681245147187:1500343316170936390": "1559397848406163468",
+      "replay:1559394681245147187:1500343337465417838": "1559397856815743057",
+      "replay:1559394681245147187:1500343577014960200": "1559397867192590377",
+      "replay:1559394681245147187:1500343627874963626": "1559397873660076143",
+      "replay:1559394681245147187:1500343716336894013": "1559397882434551851",
+      "replay:1559394681245147187:1500343791582838985": "1559397890521038909",
+      "replay:1559394681245147187:1500343793910808676": "1559397898918035608",
+      "replay:1559394681245147187:1500343824898195487": "1559397907185016833",
+      "replay:1559394681245147187:1500343871136075777": "1559397915108179992",
+      "replay:1559394681245147187:1500343936055513239": "1559397923920547841",
+      "replay:1559394681245147187:1500344154604175382": "1559397932543901779",
+      "replay:1559394681245147187:1500344238620282980": "1559397940781522955",
+      "replay:1559394681245147187:1500344267040882729": "1559397949400686708",
+      "replay:1559394681245147187:1500344276754628638": "1559397957390827541",
+      "replay:1559394681245147187:1500344281620152411": "1559397966110785651",
+      "replay:1559394681245147187:1500344501846278145": "1559397974117847052",
+      "replay:1559394681245147187:1500344510440538192": "1559397982833737733",
+      "replay:1559394681245147187:1500344574499881040": "1559397990962303067",
+      "replay:1559394681245147187:1500344718582612080": "1559397999879266305",
+      "replay:1559394681245147187:1500344766800330822": "1559398007856824392",
+      "replay:1559394681245147187:1500344773913870518": "1559398015897309196",
+      "replay:1559394681245147187:1500344776833237073": "1559398024202035224",
+      "replay:1559394681245147187:1500344777957441677": "1559398033484161124",
+      "replay:1559394681245147187:1500344843220684801": "1559398041130111071",
+      "replay:1559394681245147187:1500344854419341432": "1559398049808257045",
+      "replay:1559394681245147187:1500344866847195289": "1559398058213638217",
+      "replay:1559394681245147187:1500344926045605970": "1559398066677878865",
+      "replay:1559394681245147187:1500344932744040519": "1559398075196248075",
+      "replay:1559394681245147187:1500344964222160979": "1559398083232534571",
+      "replay:1559394681245147187:1500344990927159399": "1559398092015542293",
+      "replay:1559394681245147187:1500345009583558707": "1559398099925860357",
+      "replay:1559394681245147187:1500345041904861195": "1559398108247359491",
+      "replay:1559394681245147187:1500345073777377440": "1559398116870856737",
+      "replay:1559394681245147187:1500345090651066379": "1559398125033095231",
+      "replay:1559394681245147187:1500345189926174740": "1559398133673238570",
+      "replay:1559394681245147187:1500345266492932186": "1559398142061977652",
+      "replay:1559394681245147187:1500345321820131348": "1559398150459101264",
+      "replay:1559394681245147187:1500345394318672035": "1559398158960959570",
+      "replay:1559394681245147187:1500345409309114378": "1559398167328587777",
+      "replay:1559394681245147187:1500345410361753651": "1559398175469473805",
+      "replay:1559394681245147187:1500345439680069632": "1559398184063729755",
+      "replay:1559394681245147187:1500345468520235060": "1559398192238432347",
+      "replay:1559394681245147187:1500345494071935080": "1559398200723382326",
+      "replay:1559394681245147187:1500345542922993746": "1559398209321832459",
+      "replay:1559394681245147187:1500345736813089011": "1559398217286942723",
+      "replay:1559394681245147187:1500345799421464586": "1559398226254237756",
+      "replay:1559394681245147187:1500345856090570885": "1559398233980014615",
+      "replay:1559394681245147187:1500345952358105088": "1559398242553434143",
+      "replay:1559394681245147187:1500345967864709140": "1559398251088838748",
+      "replay:1559394681245147187:1500346050949546186": "1559398259339034685",
+      "replay:1559394681245147187:1500346117575934023": "1559398267899613198",
+      "replay:1559394681245147187:1500346448506781911": "1559398279098273827",
+      "replay:1559394681245147187:1500346646872195244": "1559398284521644207",
+      "replay:1559394681245147187:1500346996089946284": "1559398292947738717",
+      "replay:1559394681245147187:1500347102428135538": "1559398301692993579",
+      "replay:1559394681245147187:1500354538421354618": "1559398312057110635",
+      "replay:1559394681245147187:1500360250723664063": "1559398317832671276",
+      "replay:1559394681245147187:1506108735205150872": "1559398326858682411",
+      "replay:1559394681245147187:1506108748207493170": "1559398335016869949",
+      "replay:1559394681245147187:1506108825659244746": "1559398343292092448",
+      "replay:1559394681245147187:1506108837487448065": "1559398351882158153",
+      "replay:1559394681245147187:1506108851525517383": "1559398360014655529",
+      "replay:1559394681245147187:1506108861558427830": "1559398368407453840",
+      "replay:1559394681245147187:1506108891170209812": "1559398376758448202",
+      "replay:1559394681245147187:1506108932945346611": "1559398385474076697",
+      "replay:1559394681245147187:1506108937701687399": "1559398393686663198",
+      "replay:1559394681245147187:1506108975895019530": "1559398402456813579",
+      "replay:1559394681245147187:1506109085274210395": "1559398410828779521",
+      "replay:1559394681245147187:1506109097097953371": "1559398418412085360",
+      "replay:1559394681245147187:1506109729619841044": "1559398427295617105",
+      "replay:1559394681245147187:1522277908062666893": "1559398435474505779",
+      "replay:1559394681245147187:1522776151905538168": "1559398444139814973",
+      "replay:1559394681962364998:1559135459194568756": "1559395596119318589",
+      "replay:1559394682331463742:1559135433462644767": "1559395590184374334",
+      "replay:1559394682805559369:1559172904258642041": "1559395570240716821",
+      "replay:1559395195508756600:1559089690584424489": "1559398637140713472",
+      "replay:1559395195508756600:1559089691767083103": "1559398639485456466",
+      "replay:1559395199749459968:1523154631083954387": "1559398517896904737",
+      "replay:1559395199749459968:1523154632673853451": "1559398520627400794",
+      "replay:1559395204728094730:1525545491839062046": "1559398569092583425",
+      "replay:1559395204728094730:1525545503893491712": "1559398570967179297",
+      "replay:1559395204728094730:1525545633845346314": "1559398573001678909",
+      "replay:1559395204728094730:1525545711523987675": "1559398574784122891",
+      "replay:1559395204728094730:1525545770051440800": "1559398576587542692",
+      "replay:1559395204728094730:1525545798828429353": "1559398578533830788",
+      "replay:1559395204728094730:1525545799994446006": "1559398579888726040",
+      "replay:1559395204728094730:1525545856319754271": "1559398581654396999",
+      "replay:1559395204728094730:1525545880092938240": "1559398583290036378",
+      "replay:1559395204728094730:1525545911802134619": "1559398585395716109",
+      "replay:1559395204728094730:1525545961001324555": "1559398587928944711",
+      "replay:1559395204728094730:1525545999505035324": "1559398589451472979",
+      "replay:1559395204728094730:1525546814445584545": "1559398591418736694",
+      "replay:1559395204728094730:1525547216008384694": "1559398593885110435",
+      "replay:1559395212248490004:1523335415644422206": "1559398557843198064",
+      "replay:1559395212248490004:1523335417317949602": "1559398559315402815",
+      "replay:1559395221979013140:1523161196667207735": "1559398527245754480",
+      "replay:1559395221979013140:1523161199469002763": "1559398529338703914",
+      "replay:1559395221979013140:1523161410270527618": "1559398536326549515",
+      "replay:1559395221979013140:1523161411784802334": "1559398541678485585",
+      "replay:1559395221979013140:1523161415836499999": "1559398548930428959",
+      "replay:1559395221979013140:1523161417614753883": "1559398550633320449",
+      "replay:1559395235111378944:1523026198891069481": "1559398501115236448",
+      "replay:1559395249846099994:1523081192356708442": "1559398506748186717",
+      "replay:1559395254979793036:1522795766974775326": "1559398489132367919",
+      "replay:1559395254979793036:1522795769726242926": "1559398491544092764",
+      "replay:1559395254979793036:1522795771181928498": "1559398493708353599",
+      "replay:1559395254979793036:1522795772662517811": "1559398495440478301",
+      "replay:1559395279910731887:1523101758958735451": "1559398511408054285",
+      "replay:1559395284180537455:1525546080438190150": "1559398605218127973",
+      "replay:1559395284180537455:1525546082203861185": "1559398606962950165",
+      "replay:1559395284180537455:1525546084099952883": "1559398608778961039",
+      "replay:1559395284180537455:1525546125304660151": "1559398611484151942",
+      "replay:1559395284180537455:1525546164089520249": "1559398613329649797",
+      "replay:1559395284180537455:1525546265373573141": "1559398614923481110",
+      "replay:1559395284180537455:1525546329420464269": "1559398617415032863",
+      "replay:1559395284180537455:1525546516109070496": "1559398621818916907",
+      "replay:1559395284180537455:1525546604462080031": "1559398623773589575",
+      "replay:1559395284180537455:1525546634837098648": "1559398626927575114",
+      "replay:1559395284180537455:1525546674557030541": "1559398629750476860",
+      "replay:1559395290987896834:1498497584874913852": "1559395826080555012",
+      "replay:1559395295052169318:1498497563207405719": "1559395819499556947",
+      "replay:1559395295052169318:1498497628571435218": "1559395833349275669",
+      "replay:1559395295052169318:1498497667788050502": "1559395834963951717",
+      "spotify_channel_id": "1559394681962364998",
+      "suporte_channel_id": "1559394682805559369"
+    }
+  }
+}

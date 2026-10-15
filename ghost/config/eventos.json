@@ -1,0 +1,205 @@
+{
+  "categorias": {
+    "seguranca": "Segurança",
+    "pagamento": "Pagamentos",
+    "entrega": "Entregas",
+    "tickets": "Tickets",
+    "equipe": "Equipe",
+    "estoque": "Estoque",
+    "configuracao": "Configuração"
+  },
+  "eventos": [
+    {
+      "id": "raid_punicao",
+      "categoria": "seguranca",
+      "nome": "Punição anti-raid",
+      "padrao": true
+    },
+    {
+      "id": "pix_gerado",
+      "categoria": "pagamento",
+      "nome": "PIX gerado",
+      "padrao": false
+    },
+    {
+      "id": "pagamento_aprovado",
+      "categoria": "pagamento",
+      "nome": "Pagamento aprovado",
+      "padrao": true
+    },
+    {
+      "id": "pix_encerrado",
+      "categoria": "pagamento",
+      "nome": "PIX encerrado sem pagamento",
+      "padrao": true
+    },
+    {
+      "id": "pix_cancelado",
+      "categoria": "pagamento",
+      "nome": "PIX cancelado pelo cliente",
+      "padrao": false
+    },
+    {
+      "id": "reembolso",
+      "categoria": "pagamento",
+      "nome": "Reembolso feito",
+      "padrao": true
+    },
+    {
+      "id": "entrega_automatica",
+      "categoria": "entrega",
+      "nome": "Entrega automática",
+      "padrao": false
+    },
+    {
+      "id": "entrega_falha",
+      "categoria": "entrega",
+      "nome": "Falha total na entrega",
+      "padrao": true
+    },
+    {
+      "id": "entrega_parcial",
+      "categoria": "entrega",
+      "nome": "Entrega parcial",
+      "padrao": true
+    },
+    {
+      "id": "entrega_manual_pendente",
+      "categoria": "entrega",
+      "nome": "Entrega manual pendente",
+      "padrao": true
+    },
+    {
+      "id": "entrega_manual_concluida",
+      "categoria": "entrega",
+      "nome": "Entrega manual concluída",
+      "padrao": true
+    },
+    {
+      "id": "ticket_aberto",
+      "categoria": "tickets",
+      "nome": "Ticket aberto",
+      "padrao": false
+    },
+    {
+      "id": "ticket_fechado",
+      "categoria": "tickets",
+      "nome": "Ticket fechado",
+      "padrao": true
+    },
+    {
+      "id": "equipe_alterada",
+      "categoria": "equipe",
+      "nome": "Equipe alterada",
+      "padrao": true
+    },
+    {
+      "id": "config_alterada",
+      "categoria": "configuracao",
+      "nome": "Configuração alterada",
+      "padrao": true
+    },
+    {
+      "id": "ajuda_imagem_alterada",
+      "categoria": "configuracao",
+      "nome": "Imagem do help alterada",
+      "padrao": true
+    },
+    {
+      "id": "estoque_adicionado",
+      "categoria": "estoque",
+      "nome": "Estoque adicionado",
+      "padrao": true
+    },
+    {
+      "id": "estoque_removido",
+      "categoria": "estoque",
+      "nome": "Item removido do estoque",
+      "padrao": true
+    },
+    {
+      "id": "estoque_editado",
+      "categoria": "estoque",
+      "nome": "Item do estoque editado",
+      "padrao": true
+    },
+    {
+      "id": "estoque_modelo_alterado",
+      "categoria": "estoque",
+      "nome": "Modelo de JSON do estoque alterado",
+      "padrao": true
+    },
+    {
+      "id": "produto_alterado",
+      "categoria": "configuracao",
+      "nome": "Produto criado ou alterado",
+      "padrao": true
+    },
+    {
+      "id": "vitrine_publicada",
+      "categoria": "configuracao",
+      "nome": "Vitrine publicada",
+      "padrao": false
+    },
+    {
+      "id": "anuncio_enviado",
+      "categoria": "configuracao",
+      "nome": "Anúncio enviado",
+      "padrao": false
+    },
+    {
+      "id": "backup_criado",
+      "categoria": "seguranca",
+      "nome": "Backup do servidor criado",
+      "padrao": true
+    },
+    {
+      "id": "acao_agente",
+      "categoria": "seguranca",
+      "nome": "Ação do Ghost Agent",
+      "padrao": true
+    },
+    {
+      "id": "agente_contexto_alterado",
+      "categoria": "seguranca",
+      "nome": "Contexto do Ghost Agent alterado",
+      "padrao": true
+    },
+    {
+      "id": "agente_politica_alterada",
+      "categoria": "seguranca",
+      "nome": "Permissão de ferramenta do Ghost Agent alterada",
+      "padrao": true
+    },
+    {
+      "id": "agente_canal_alterado",
+      "categoria": "seguranca",
+      "nome": "Canal fixo do Ghost Agent alterado",
+      "padrao": true
+    },
+    {
+      "id": "acao_admin",
+      "categoria": "seguranca",
+      "nome": "Ação sensível de admin",
+      "padrao": true
+    },
+    {
+      "id": "backup_apagado",
+      "categoria": "seguranca",
+      "nome": "Backup do servidor apagado",
+      "padrao": true
+    },
+    {
+      "id": "backup_restaurado",
+      "categoria": "seguranca",
+      "nome": "Servidor restaurado a partir do backup",
+      "padrao": true
+    },
+    {
+      "id": "backup_restauracao_incompleta",
+      "categoria": "seguranca",
+      "nome": "Restauração do servidor incompleta ou interrompida",
+      "padrao": true
+    }
+  ]
+}

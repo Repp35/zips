@@ -1,0 +1,1978 @@
+{
+  "criado_em": "2026-10-12T20:44:28-03:00",
+  "estado": {
+    "produtos": {
+      "capcut_link": {
+        "id": "capcut_link",
+        "nome": "CapCut Pro",
+        "preco": 4.7,
+        "ordem": 1,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073406438051860/50_Sem_Titulo_20260502065601.png?ex=69f7c47a&is=69f672fa&hm=677eec03bd66843417aaff946e63e544fa0ad9b481c1acd6199b1d38f2d0f0c5&",
+        "garantia": null,
+        "select": {
+          "rotulo": "CapCut Pro",
+          "descricao": "{preco} | {estado}",
+          "emoji": null
+        },
+        "botao": {
+          "label": "Comprar",
+          "style": 2,
+          "emoji": "@cart"
+        },
+        "sem_estoque": "manual",
+        "modelo": {
+          "estoque": "link",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "CAPCUT",
+          "tipo": "painel",
+          "nome_setup": "CapCut",
+          "publicar": true,
+          "blocos": [
+            {
+              "tipo": "texto",
+              "texto": "## <:capcut:1499882135459201175>  CapCut Pro\n### {preco}\n\n- Entrega automática de link de presente.\n- Plano mensal compartilhado.\n- Garantia somente na entrega — confirmado o acesso, a garantia encerra."
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "estoque"
+            },
+            {
+              "tipo": "imagem",
+              "url": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073406438051860/50_Sem_Titulo_20260502065601.png?ex=69f7c47a&is=69f672fa&hm=677eec03bd66843417aaff946e63e544fa0ad9b481c1acd6199b1d38f2d0f0c5&"
+            },
+            {
+              "tipo": "linha"
+            }
+          ]
+        }
+      },
+      "netflix_fa": {
+        "id": "netflix_fa",
+        "nome": "Netflix FA",
+        "preco": 11.6,
+        "ordem": 1,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+        "garantia": "7 dias após a entrega.",
+        "select": {
+          "rotulo": "Netflix FA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:netflix:1499177522729058334>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "FA",
+          "tipo": "selecao",
+          "nome_setup": "FA",
+          "publicar": true,
+          "titulo": "Streamings FA | Melhor Plano",
+          "descricao": "{E.truck} Entrega Automática!\n\n- FA significa **Full Access** — conta completa e exclusivamente sua.\n- **30 dias** de duração com **7 dias de garantia**.\n- Dúvidas? Chama no suporte antes de comprar.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+          "custom_id": "select_produto_fa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "prime_fa": {
+        "id": "prime_fa",
+        "nome": "Prime Video FA",
+        "preco": 5.8,
+        "ordem": 2,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+        "garantia": "7 dias após a entrega.",
+        "select": {
+          "rotulo": "Prime Video FA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:prime_video:1499177634863775938>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "FA",
+          "tipo": "selecao",
+          "nome_setup": "FA",
+          "publicar": true,
+          "titulo": "Streamings FA | Melhor Plano",
+          "descricao": "{E.truck} Entrega Automática!\n\n- FA significa **Full Access** — conta completa e exclusivamente sua.\n- **30 dias** de duração com **7 dias de garantia**.\n- Dúvidas? Chama no suporte antes de comprar.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+          "custom_id": "select_produto_fa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "crunchyroll_fa": {
+        "id": "crunchyroll_fa",
+        "nome": "Crunchyroll FA",
+        "preco": 4.8,
+        "ordem": 3,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+        "garantia": "7 dias após a entrega.",
+        "select": {
+          "rotulo": "Crunchyroll FA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:crunchyroll:1499177957074145340>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "FA",
+          "tipo": "selecao",
+          "nome_setup": "FA",
+          "publicar": true,
+          "titulo": "Streamings FA | Melhor Plano",
+          "descricao": "{E.truck} Entrega Automática!\n\n- FA significa **Full Access** — conta completa e exclusivamente sua.\n- **30 dias** de duração com **7 dias de garantia**.\n- Dúvidas? Chama no suporte antes de comprar.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+          "custom_id": "select_produto_fa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "paramount_fa": {
+        "id": "paramount_fa",
+        "nome": "Paramount+ FA",
+        "preco": 14.5,
+        "ordem": 4,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+        "garantia": "7 dias após a entrega.",
+        "select": {
+          "rotulo": "Paramount+ FA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:paramount:1499178162242977804>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "FA",
+          "tipo": "selecao",
+          "nome_setup": "FA",
+          "publicar": true,
+          "titulo": "Streamings FA | Melhor Plano",
+          "descricao": "{E.truck} Entrega Automática!\n\n- FA significa **Full Access** — conta completa e exclusivamente sua.\n- **30 dias** de duração com **7 dias de garantia**.\n- Dúvidas? Chama no suporte antes de comprar.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+          "custom_id": "select_produto_fa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "disney_fa": {
+        "id": "disney_fa",
+        "nome": "Disney+ FA",
+        "preco": 5.8,
+        "ordem": 5,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+        "garantia": "7 dias após a entrega.",
+        "select": {
+          "rotulo": "Disney+ FA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:disney:1499180297458290798>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "FA",
+          "tipo": "selecao",
+          "nome_setup": "FA",
+          "publicar": true,
+          "titulo": "Streamings FA | Melhor Plano",
+          "descricao": "{E.truck} Entrega Automática!\n\n- FA significa **Full Access** — conta completa e exclusivamente sua.\n- **30 dias** de duração com **7 dias de garantia**.\n- Dúvidas? Chama no suporte antes de comprar.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+          "custom_id": "select_produto_fa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "hbo_fa": {
+        "id": "hbo_fa",
+        "nome": "HBO Max FA",
+        "preco": 6.5,
+        "ordem": 6,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+        "garantia": "7 dias após a entrega.",
+        "select": {
+          "rotulo": "HBO Max FA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:hbo_max:1499177592249385090>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "FA",
+          "tipo": "selecao",
+          "nome_setup": "FA",
+          "publicar": true,
+          "titulo": "Streamings FA | Melhor Plano",
+          "descricao": "{E.truck} Entrega Automática!\n\n- FA significa **Full Access** — conta completa e exclusivamente sua.\n- **30 dias** de duração com **7 dias de garantia**.\n- Dúvidas? Chama no suporte antes de comprar.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499289397714096158/19_Sem_Titulo_20260429221552.png?ex=69f4ea4f&is=69f398cf&hm=4e4a2868275b718e6c5f42d93defee821a80b34b0cec347acf49ac478f03c7c6&",
+          "custom_id": "select_produto_fa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "netflix_nfa": {
+        "id": "netflix_nfa",
+        "nome": "Netflix NFA",
+        "preco": 2.1,
+        "ordem": 1,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+        "garantia": "somente na entrega (confirmado o acesso, encerra).",
+        "select": {
+          "rotulo": "Netflix NFA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:netflix:1499177522729058334>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "NFA",
+          "tipo": "selecao",
+          "nome_setup": "NFA",
+          "publicar": true,
+          "titulo": "Streamings NFA",
+          "descricao": "{E.truck} Entrega Automática!\n\n- NFA significa **Not Full Access** — conta compartilhada, preço acessível.\n- **30 dias** de duração. Garantia **somente na entrega**.\n- Sem trocas ou reembolsos após confirmação do acesso.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+          "custom_id": "select_produto_nfa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "paramount_nfa": {
+        "id": "paramount_nfa",
+        "nome": "Paramount+ NFA",
+        "preco": 1.8,
+        "ordem": 2,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+        "garantia": "somente na entrega (confirmado o acesso, encerra).",
+        "select": {
+          "rotulo": "Paramount+ NFA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:paramount:1499178162242977804>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "NFA",
+          "tipo": "selecao",
+          "nome_setup": "NFA",
+          "publicar": true,
+          "titulo": "Streamings NFA",
+          "descricao": "{E.truck} Entrega Automática!\n\n- NFA significa **Not Full Access** — conta compartilhada, preço acessível.\n- **30 dias** de duração. Garantia **somente na entrega**.\n- Sem trocas ou reembolsos após confirmação do acesso.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+          "custom_id": "select_produto_nfa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "crunchyroll_nfa": {
+        "id": "crunchyroll_nfa",
+        "nome": "Crunchyroll NFA",
+        "preco": 1.5,
+        "ordem": 3,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+        "garantia": "somente na entrega (confirmado o acesso, encerra).",
+        "select": {
+          "rotulo": "Crunchyroll NFA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:crunchyroll:1499177957074145340>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "NFA",
+          "tipo": "selecao",
+          "nome_setup": "NFA",
+          "publicar": true,
+          "titulo": "Streamings NFA",
+          "descricao": "{E.truck} Entrega Automática!\n\n- NFA significa **Not Full Access** — conta compartilhada, preço acessível.\n- **30 dias** de duração. Garantia **somente na entrega**.\n- Sem trocas ou reembolsos após confirmação do acesso.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+          "custom_id": "select_produto_nfa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "prime_nfa": {
+        "id": "prime_nfa",
+        "nome": "Prime Video NFA",
+        "preco": 1.8,
+        "ordem": 4,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+        "garantia": "somente na entrega (confirmado o acesso, encerra).",
+        "select": {
+          "rotulo": "Prime Video NFA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:prime_video:1499177634863775938>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "NFA",
+          "tipo": "selecao",
+          "nome_setup": "NFA",
+          "publicar": true,
+          "titulo": "Streamings NFA",
+          "descricao": "{E.truck} Entrega Automática!\n\n- NFA significa **Not Full Access** — conta compartilhada, preço acessível.\n- **30 dias** de duração. Garantia **somente na entrega**.\n- Sem trocas ou reembolsos após confirmação do acesso.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+          "custom_id": "select_produto_nfa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "hbo_nfa": {
+        "id": "hbo_nfa",
+        "nome": "HBO Max NFA",
+        "preco": 1.8,
+        "ordem": 5,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+        "garantia": "somente na entrega (confirmado o acesso, encerra).",
+        "select": {
+          "rotulo": "HBO Max NFA",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:hbo_max:1499177592249385090>"
+        },
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "NFA",
+          "tipo": "selecao",
+          "nome_setup": "NFA",
+          "publicar": true,
+          "titulo": "Streamings NFA",
+          "descricao": "{E.truck} Entrega Automática!\n\n- NFA significa **Not Full Access** — conta compartilhada, preço acessível.\n- **30 dias** de duração. Garantia **somente na entrega**.\n- Sem trocas ou reembolsos após confirmação do acesso.",
+          "cor": 16777215,
+          "imagem": "https://cdn.discordapp.com/attachments/1498777322319384847/1499187487774347264/17_Sem_Titulo_20260428043645.png?ex=69f3e2a6&is=69f29126&hm=559af7480cbb5ce6505031e685beb72fac1d6d0700b63e694f61b1d5cd1f4e12&",
+          "custom_id": "select_produto_nfa",
+          "placeholder": "Selecione um produto..."
+        }
+      },
+      "nitro_link": {
+        "id": "nitro_link",
+        "nome": "Discord Nitro",
+        "preco": 3.8,
+        "ordem": 1,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498488386586017933/1500981464349540502/29_Sem_Titulo_20260430224115.png?ex=69fa696b&is=69f917eb&hm=3ed5ca16143ab944ad394993b08a1c8e80d7827905216e1d231d431135e9f606&",
+        "garantia": null,
+        "select": {
+          "rotulo": "Discord Nitro",
+          "descricao": "{preco} | {estado}",
+          "emoji": null
+        },
+        "botao": {
+          "label": "Comprar",
+          "style": 2,
+          "emoji": "@cart"
+        },
+        "sem_estoque": "manual",
+        "modelo": {
+          "estoque": "link",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "NITRO",
+          "tipo": "painel",
+          "nome_setup": "Nitro",
+          "publicar": true,
+          "blocos": [
+            {
+              "tipo": "texto",
+              "texto": "## <:nitro:1499588239185547284>  Discord Nitro\n### {preco}\n\n- Entrega automática de link de presente.\n- Funciona em contas sem Nitro há +1 ano.\n- Somente em contas com +30 dias de criação.\n- O link dura 1 mês após o resgate e tem 1 mês para ser usado."
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "estoque"
+            },
+            {
+              "tipo": "imagem",
+              "url": "https://cdn.discordapp.com/attachments/1498488386586017933/1500981464349540502/29_Sem_Titulo_20260430224115.png?ex=69fa696b&is=69f917eb&hm=3ed5ca16143ab944ad394993b08a1c8e80d7827905216e1d231d431135e9f606&"
+            },
+            {
+              "tipo": "linha"
+            }
+          ]
+        }
+      },
+      "spotify_1mes": {
+        "id": "spotify_1mes",
+        "nome": "Spotify Premium 1 Mês",
+        "preco": 4.2,
+        "ordem": 1,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073680758247615/51_Sem_Titulo_20260502065706.png?ex=69f7c4bb&is=69f6733b&hm=7016c1270aa8a6e7573a0001310c236ca529c80d27c74588f2d5d9656fce6520&",
+        "garantia": null,
+        "select": {
+          "rotulo": "1 Mês",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:spotify:1499886314156331098>"
+        },
+        "sem_estoque": "manual",
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "SPOTIFY",
+          "tipo": "painel",
+          "nome_setup": "Spotify",
+          "publicar": true,
+          "blocos": [
+            {
+              "tipo": "texto",
+              "texto": "## <:spotify:1499886314156331098>  Spotify Premium\nConta com **full acesso** — email, senha e todos os dados podem ser alterados por você.\n\n- Entrega manual realizada por um membro da equipe.\n- Troque o email da conta assim que receber, ou ela pode cair.\n- Garantia somente na entrega — confirmado o acesso, a garantia encerra."
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "estoque"
+            },
+            {
+              "tipo": "imagem",
+              "url": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073680758247615/51_Sem_Titulo_20260502065706.png?ex=69f7c4bb&is=69f6733b&hm=7016c1270aa8a6e7573a0001310c236ca529c80d27c74588f2d5d9656fce6520&"
+            },
+            {
+              "tipo": "linha"
+            }
+          ],
+          "seletor": {
+            "custom_id": "comprar_spotify_select",
+            "placeholder": "Selecione o plano..."
+          }
+        }
+      },
+      "spotify_2meses": {
+        "id": "spotify_2meses",
+        "nome": "Spotify Premium 2 Meses",
+        "preco": 5.2,
+        "ordem": 2,
+        "ativo": true,
+        "anunciar": true,
+        "canal": null,
+        "imagem": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073680758247615/51_Sem_Titulo_20260502065706.png?ex=69f7c4bb&is=69f6733b&hm=7016c1270aa8a6e7573a0001310c236ca529c80d27c74588f2d5d9656fce6520&",
+        "garantia": null,
+        "select": {
+          "rotulo": "2 Meses",
+          "descricao": "{preco} | {estado}",
+          "emoji": "<:spotify:1499886314156331098>"
+        },
+        "sem_estoque": "manual",
+        "modelo": {
+          "estoque": "conta",
+          "entrega": "automatica",
+          "sem_estoque": "avisar",
+          "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+          "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe."
+        },
+        "mensagem": {
+          "automatico": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "lote",
+                  "label": "Lote ({quantidade}x)",
+                  "style": 2,
+                  "emoji": "@cardbox"
+                },
+                {
+                  "acao": "cupom",
+                  "label": "Cupom",
+                  "label_com_cupom": "Cupom: {cupom_codigo}",
+                  "style": 2,
+                  "emoji": "@ticket"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ],
+          "manual": [
+            {
+              "tipo": "texto",
+              "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "imagem"
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "botoes",
+              "itens": [
+                {
+                  "acao": "pagar",
+                  "label": "Pagar agora",
+                  "style": 3,
+                  "emoji": "@correct"
+                },
+                {
+                  "acao": "cancelar",
+                  "label": "Cancelar",
+                  "style": 4,
+                  "emoji": "@delete"
+                }
+              ]
+            }
+          ]
+        },
+        "vitrine": {
+          "id": "SPOTIFY",
+          "tipo": "painel",
+          "nome_setup": "Spotify",
+          "publicar": true,
+          "blocos": [
+            {
+              "tipo": "texto",
+              "texto": "## <:spotify:1499886314156331098>  Spotify Premium\nConta com **full acesso** — email, senha e todos os dados podem ser alterados por você.\n\n- Entrega manual realizada por um membro da equipe.\n- Troque o email da conta assim que receber, ou ela pode cair.\n- Garantia somente na entrega — confirmado o acesso, a garantia encerra."
+            },
+            {
+              "tipo": "linha"
+            },
+            {
+              "tipo": "estoque"
+            },
+            {
+              "tipo": "imagem",
+              "url": "https://cdn.discordapp.com/attachments/1498488386586017933/1500073680758247615/51_Sem_Titulo_20260502065706.png?ex=69f7c4bb&is=69f6733b&hm=7016c1270aa8a6e7573a0001310c236ca529c80d27c74588f2d5d9656fce6520&"
+            },
+            {
+              "tipo": "linha"
+            }
+          ],
+          "seletor": {
+            "custom_id": "comprar_spotify_select",
+            "placeholder": "Selecione o plano..."
+          }
+        }
+      }
+    },
+    "config_json": {
+      "_comentario": "Padrões do bot. O bot nunca escreve neste arquivo. Chaves em 'editaveis' podem ser sobrepostas pelo banco (/loja config e /loja cargos); null em canais significa usar o .env.",
+      "prefixo": ">",
+      "nome_loja_padrao": "Store",
+      "cargos": {
+        "membro": "membro",
+        "equipe": "equipe",
+        "bots": "bot's",
+        "cliente": "cliente"
+      },
+      "cargos_niveis": [
+        {
+          "valor": 0,
+          "cargo": "cliente"
+        },
+        {
+          "valor": 8.0,
+          "cargo": "cliente plus"
+        }
+      ],
+      "efemera_s": 30,
+      "mercado_pago_timeout_s": 20,
+      "entrega_fecha_dm_s": 10,
+      "reserva_max_minutos": 30,
+      "restock_pedidos_por_dia": 20,
+      "cores": {
+        "info": "#B0D4F1",
+        "sucesso": "#A8D5A2",
+        "aviso": "#FFAA00",
+        "erro": "#FF0000",
+        "entrega": "#D4AAFF",
+        "neutro": "#2B2D31"
+      },
+      "antinuke": {
+        "janela_s": 10,
+        "limite_criacao": 8,
+        "limite_exclusao": 5,
+        "bloqueio_s": 30
+      },
+      "raid": {
+        "limites": {
+          "channel_create": [
+            8,
+            10
+          ],
+          "channel_delete": [
+            5,
+            10
+          ],
+          "channel_update": [
+            5,
+            10
+          ],
+          "thread_create": [
+            5,
+            10
+          ],
+          "webhook_create": [
+            2,
+            10
+          ],
+          "bot_add": [
+            1,
+            60
+          ],
+          "role_create": [
+            3,
+            10
+          ],
+          "role_delete": [
+            3,
+            10
+          ],
+          "invite_create": [
+            5,
+            20
+          ],
+          "emoji_create": [
+            5,
+            20
+          ],
+          "ban_kick": [
+            3,
+            10
+          ],
+          "mencao": [
+            3,
+            10
+          ],
+          "member_join": [
+            20,
+            10
+          ],
+          "reaction": [
+            12,
+            10
+          ],
+          "role_update": [
+            3,
+            10
+          ],
+          "member_role_update": [
+            5,
+            10
+          ],
+          "guild_update": [
+            3,
+            10
+          ],
+          "thread_delete": [
+            3,
+            10
+          ],
+          "thread_update": [
+            5,
+            10
+          ],
+          "webhook_update": [
+            2,
+            10
+          ],
+          "webhook_delete": [
+            2,
+            10
+          ],
+          "member_prune": [
+            1,
+            60
+          ],
+          "message_bulk_delete": [
+            2,
+            10
+          ],
+          "scheduled_event_create": [
+            5,
+            10
+          ],
+          "scheduled_event_delete": [
+            3,
+            10
+          ],
+          "scheduled_event_update": [
+            5,
+            10
+          ]
+        },
+        "mencoes_max": 5,
+        "audit_janela_s": 15,
+        "cooldown_s": 30,
+        "reincidencia_s": 86400
+      },
+      "spam": {
+        "max_msgs": 5,
+        "janela_s": 5,
+        "timeout_s": 60,
+        "max_msgs_thread": 500
+      },
+      "editaveis": {
+        "logs_ativo": true,
+        "logs_channel_id": null,
+        "fa_channel_id": null,
+        "nfa_channel_id": null,
+        "suporte_channel_id": null,
+        "nitro_channel_id": null,
+        "capcut_channel_id": null,
+        "spotify_channel_id": null,
+        "pedido_restock_channel_id": null,
+        "aviso_restock_channel_id": "1498778038245003375"
+      },
+      "diario": {
+        "arquivo": "diario.jsonl"
+      }
+    },
+    "banco": {
+      "capcut_channel_id": "1498489551189049415",
+      "cargo_cliente_id": "1498808230707724310",
+      "cargo_equipe_id": "1498490128799109211",
+      "cargo_membro_id": "1498808095923507370",
+      "cargos_niveis": "[{\"valor\": 0, \"cargo\": \"cliente\", \"cargo_id\": \"1498808230707724310\"}, {\"valor\": 8.0, \"cargo\": \"cliente plus\"}]",
+      "fa_channel_id": "1498488098059714571",
+      "logs_channel_id": "1498488386586017933",
+      "migracao_avisos": "1",
+      "nfa_channel_id": "1498488067168796712",
+      "nitro_channel_id": "1498489467768406198",
+      "spotify_channel_id": "1498489436923625595",
+      "suporte_channel_id": "1498487776398541002"
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "conta": {
+    "descricao": "Conta do estoque (login:senha). Entrega automática por DM.",
+    "estoque": "conta",
+    "entrega": "automatica",
+    "sem_estoque": "avisar",
+    "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+    "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe.",
+    "carrinho": {
+      "automatico": [
+        {
+          "tipo": "texto",
+          "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+        },
+        {
+          "tipo": "linha"
+        },
+        {
+          "tipo": "imagem"
+        },
+        {
+          "tipo": "linha"
+        },
+        {
+          "tipo": "botoes",
+          "itens": [
+            {
+              "acao": "pagar",
+              "label": "Pagar agora",
+              "style": 3,
+              "emoji": "@correct"
+            },
+            {
+              "acao": "lote",
+              "label": "Lote ({quantidade}x)",
+              "style": 2,
+              "emoji": "@cardbox"
+            },
+            {
+              "acao": "cupom",
+              "label": "Cupom",
+              "label_com_cupom": "Cupom: {cupom_codigo}",
+              "style": 2,
+              "emoji": "@ticket"
+            },
+            {
+              "acao": "cancelar",
+              "label": "Cancelar",
+              "style": 4,
+              "emoji": "@delete"
+            }
+          ]
+        }
+      ],
+      "manual": [
+        {
+          "tipo": "texto",
+          "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+        },
+        {
+          "tipo": "linha"
+        },
+        {
+          "tipo": "imagem"
+        },
+        {
+          "tipo": "linha"
+        },
+        {
+          "tipo": "botoes",
+          "itens": [
+            {
+              "acao": "pagar",
+              "label": "Pagar agora",
+              "style": 3,
+              "emoji": "@correct"
+            },
+            {
+              "acao": "cancelar",
+              "label": "Cancelar",
+              "style": 4,
+              "emoji": "@delete"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "link": {
+    "descricao": "Link do estoque. Entrega automática por DM.",
+    "estoque": "link",
+    "entrega": "automatica",
+    "sem_estoque": "avisar",
+    "pagamento": "Pagamento via PIX — entrega automática após confirmação.",
+    "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe.",
+    "carrinho": {
+      "automatico": [
+        {
+          "tipo": "texto",
+          "texto": "## {titulo}\n\n{valor}{cupom}\n**Em estoque:** {estoque}\n\n{pagamento}{garantia}"
+        },
+        {
+          "tipo": "linha"
+        },
+        {
+          "tipo": "imagem"
+        },
+        {
+          "tipo": "linha"
+        },
+        {
+          "tipo": "botoes",
+          "itens": [
+            {
+              "acao": "pagar",
+              "label": "Pagar agora",
+              "style": 3,
+              "emoji": "@correct"
+            },
+            {
+              "acao": "lote",
+              "label": "Lote ({quantidade}x)",
+              "style": 2,
+              "emoji": "@cardbox"
+            },
+            {
+              "acao": "cupom",
+              "label": "Cupom",
+              "label_com_cupom": "Cupom: {cupom_codigo}",
+              "style": 2,
+              "emoji": "@ticket"
+            },
+            {
+              "acao": "cancelar",
+              "label": "Cancelar",
+              "style": 4,
+              "emoji": "@delete"
+            }
+          ]
+        }
+      ],
+      "manual": [
+        {
+          "tipo": "texto",
+          "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+        },
+        {
+          "tipo": "linha"
+        },
+        {
+          "tipo": "imagem"
+        },
+        {
+          "tipo": "linha"
+        },
+        {
+          "tipo": "botoes",
+          "itens": [
+            {
+              "acao": "pagar",
+              "label": "Pagar agora",
+              "style": 3,
+              "emoji": "@correct"
+            },
+            {
+              "acao": "cancelar",
+              "label": "Cancelar",
+              "style": 4,
+              "emoji": "@delete"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "manual": {
+    "descricao": "Sem estoque. A equipe faz a entrega depois do pagamento.",
+    "estoque": null,
+    "entrega": "manual",
+    "sem_estoque": "manual",
+    "pagamento": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe.",
+    "pagamento_manual": "Pagamento via PIX — entrega **manual** realizada por um membro da equipe.",
+    "carrinho": {
+      "automatico": [
+        {
+          "tipo": "texto",
+          "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+        },
+        {
+          "tipo": "linha"
+        },
+        {
+          "tipo": "imagem"
+        },
+        {
+          "tipo": "linha"
+        },
+        {
+          "tipo": "botoes",
+          "itens": [
+            {
+              "acao": "pagar",
+              "label": "Pagar agora",
+              "style": 3,
+              "emoji": "@correct"
+            },
+            {
+              "acao": "cancelar",
+              "label": "Cancelar",
+              "style": 4,
+              "emoji": "@delete"
+            }
+          ]
+        }
+      ],
+      "manual": [
+        {
+          "tipo": "texto",
+          "texto": "## {titulo}\n\n**Valor:** {preco}\n\n{pagamento}"
+        },
+        {
+          "tipo": "linha"
+        },
+        {
+          "tipo": "imagem"
+        },
+        {
+          "tipo": "linha"
+        },
+        {
+          "tipo": "botoes",
+          "itens": [
+            {
+              "acao": "pagar",
+              "label": "Pagar agora",
+              "style": 3,
+              "emoji": "@correct"
+            },
+            {
+              "acao": "cancelar",
+              "label": "Cancelar",
+              "style": 4,
+              "emoji": "@delete"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

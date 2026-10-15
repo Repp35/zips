@@ -1,0 +1,25 @@
+{
+  "id": "NITRO",
+  "nome_setup": "Nitro",
+  "tipo": "painel",
+  "publicar": true,
+  "blocos": [
+    {
+      "tipo": "texto",
+      "texto": "## <:nitro:1499588239185547284>  Discord Nitro\n### {preco}\n\n- Entrega automática de link de presente.\n- Funciona em contas sem Nitro há +1 ano.\n- Somente em contas com +30 dias de criação.\n- O link dura 1 mês após o resgate e tem 1 mês para ser usado."
+    },
+    {
+      "tipo": "linha"
+    },
+    {
+      "tipo": "estoque"
+    },
+    {
+      "tipo": "imagem",
+      "url": "https://cdn.discordapp.com/attachments/1498488386586017933/1500981464349540502/29_Sem_Titulo_20260430224115.png?ex=69fa696b&is=69f917eb&hm=3ed5ca16143ab944ad394993b08a1c8e80d7827905216e1d231d431135e9f606&"
+    },
+    {
+      "tipo": "linha"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+# Lista de palavrões por nível. Uma palavra por linha. Linhas com # são comentários.
+# O filtro já cobre: maiúsculas, acentos, letras repetidas, separadores (p.u.t.a, p u t a),
+# números e símbolos no lugar de letras (pu7a, p@ta), links e nomes de arquivo.
+# Não precisa escrever as variações: escreva só a palavra base.
+# A lista é recarregada sozinha quando o arquivo muda.
+
+[baixo]
+droga
+merda
+
+[medio]
+# coloque aqui
+
+[alto]
+# coloque aqui
